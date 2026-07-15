@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#171918" />
+    <meta name="description" content="Frontend English listening practice with bilingual transcripts." />
+    <title>ChangeLife · Frontend Listening</title>
+    <link rel="icon" href="assets/react.svg" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell" id="app">
+      <div class="drawer-scrim" id="drawerScrim" aria-hidden="true"></div>
+
+      <aside class="library" id="library" aria-label="节目库">
+        <header class="library-brand">
+          <div class="brand-mark" aria-hidden="true"><i data-lucide="audio-lines"></i></div>
+          <div>
+            <strong>ChangeLife</strong>
+            <span>Frontend listening</span>
+          </div>
+          <button class="icon-button drawer-close" id="drawerClose" type="button" title="关闭节目库" aria-label="关闭节目库">
+            <i data-lucide="x"></i>
+          </button>
+        </header>
+
+        <div class="library-tools">
+          <label class="search-box">
+            <i data-lucide="search" aria-hidden="true"></i>
+            <input id="lessonSearch" type="search" placeholder="搜索节目" autocomplete="off" />
+          </label>
+          <div class="library-summary">
+            <span><strong id="lessonCount">10</strong> episodes</span>
+            <span><strong>20</strong> min</span>
+          </div>
+        </div>
+
+        <nav class="lesson-list" id="lessonList" aria-label="英语听力节目"></nav>
+
+        <footer class="library-footer">
+          <div class="level-chip">A1</div>
+          <p>Elementary English</p>
+          <span id="completedCount">0 / 10 complete</span>
+        </footer>
+      </aside>
+
+      <main class="main-area">
+        <header class="mobile-topbar">
+          <button class="icon-button" id="drawerOpen" type="button" title="打开节目库" aria-label="打开节目库">
+            <i data-lucide="list-music"></i>
+          </button>
+          <div>
+            <span>NOW PLAYING</span>
+            <strong id="mobileEpisodeTitle">Frontend listening</strong>
+          </div>
+          <span class="mobile-number" id="mobileEpisodeNumber">01</span>
+        </header>
+
+        <div class="workspace">
+          <section class="player-pane" aria-labelledby="episodeTitle">
+            <div class="player-topline">
+              <span id="episodeLabel">EPISODE 01</span>
+              <button class="icon-button" id="favoriteButton" type="button" title="收藏" aria-label="收藏当前节目" aria-pressed="false">
+                <i data-lucide="bookmark"></i>
+              </button>
+            </div>
+
+            <div class="cover" id="episodeCover">
+              <img id="episodeLogo" src="assets/react.svg" alt="" />
+              <span id="coverProduct">React</span>
+            </div>
+
+            <div class="episode-heading">
+              <div class="episode-meta">
+                <span id="episodeProduct">React</span>
+                <span aria-hidden="true">·</span>
+                <time id="episodeDate">2026-02-24</time>
+              </div>
+              <h1 id="episodeTitle">React Foundation Launches</h1>
+              <a id="sourceLink" class="source-link" href="#" target="_blank" rel="noreferrer">
+                <span id="sourceTitle">Official source</span>
+                <i data-lucide="arrow-up-right" aria-hidden="true"></i>
+              </a>
+            </div>
+
+            <div class="timeline">
+              <input id="progressRange" type="range" min="0" max="120" value="0" step="0.01" aria-label="播放进度" />
+              <div class="time-row">
+                <span id="currentTime">0:00</span>
+                <span id="durationTime">2:00</span>
+              </div>
+            </div>
+
+            <div class="transport" aria-label="播放控制">
+              <button class="transport-button secondary" id="previousButton" type="button" title="上一条" aria-label="上一条">
+                <i data-lucide="skip-back"></i>
+              </button>
+              <button class="transport-button secondary" id="rewindButton" type="button" title="后退 10 秒" aria-label="后退 10 秒">
+                <i data-lucide="rotate-ccw"></i><span class="seek-number">10</span>
+              </button>
+              <button class="transport-button primary" id="playButton" type="button" title="播放" aria-label="播放">
+                <i data-lucide="play"></i>
+              </button>
+              <button class="transport-button secondary" id="forwardButton" type="button" title="前进 10 秒" aria-label="前进 10 秒">
+                <i data-lucide="rotate-cw"></i><span class="seek-number">10</span>
+              </button>
+              <button class="transport-button secondary" id="nextButton" type="button" title="下一条" aria-label="下一条">
+                <i data-lucide="skip-forward"></i>
+              </button>
+            </div>
+
+            <div class="playback-options">
+              <button class="speed-button" id="speedButton" type="button" title="切换播放速度" aria-label="切换播放速度">1.0×</button>
+              <label class="volume-control">
+                <i data-lucide="volume-2" aria-hidden="true"></i>
+                <input id="volumeRange" type="range" min="0" max="1" value="1" step="0.05" aria-label="音量" />
+              </label>
+              <span class="level-label">CEFR A1</span>
+            </div>
+          </section>
+
+          <section class="transcript-pane" aria-labelledby="transcriptTitle">
+            <header class="transcript-header">
+              <div>
+                <span class="section-kicker">LIVE TRANSCRIPT</span>
+                <h2 id="transcriptTitle">逐句听读</h2>
+              </div>
+              <div class="transcript-actions">
+                <div class="segmented-control" id="languageMode" aria-label="字幕语言">
+                  <button type="button" data-mode="bilingual" class="active" aria-pressed="true">双语</button>
+                  <button type="button" data-mode="english" aria-pressed="false">EN</button>
+                  <button type="button" data-mode="chinese" aria-pressed="false">中文</button>
+                </div>
+                <label class="auto-scroll-toggle" title="自动滚动到当前句">
+                  <input id="autoScroll" type="checkbox" checked />
+                  <span aria-hidden="true"></span>
+                  <em>跟随</em>
+                </label>
+              </div>
+            </header>
+
+            <div class="transcript-scroll" id="transcriptScroll">
+              <div class="transcript-list" id="transcriptList" role="list"></div>
+            </div>
+          </section>
+        </div>
+      </main>
+    </div>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <audio id="audioPlayer" preload="metadata"></audio>
+
+    <script src="assets/lucide.min.js"></script>
+    <script src="content-data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
