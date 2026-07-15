@@ -70,7 +70,10 @@ input:focus-visible {
   z-index: 20;
   display: grid;
   grid-template-rows: auto auto minmax(0, 1fr) auto;
+  height: 100%;
   min-width: 0;
+  min-height: 0;
+  overflow: hidden;
   color: #f4f5f2;
   background: var(--sidebar);
   border-right: 1px solid #2b2e2b;
@@ -176,8 +179,20 @@ input:focus-visible {
   min-height: 0;
   padding: 2px 10px 16px;
   overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-gutter: stable;
   scrollbar-width: thin;
   scrollbar-color: #414641 transparent;
+  -webkit-overflow-scrolling: touch;
+}
+
+.lesson-list::-webkit-scrollbar {
+  width: 6px;
+}
+
+.lesson-list::-webkit-scrollbar-thumb {
+  background: #414641;
+  border-radius: 3px;
 }
 
 .lesson-item {
