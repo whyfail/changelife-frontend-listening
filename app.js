@@ -17,6 +17,11 @@
   const searchInput = $('#lessonSearch');
   const speeds = [0.75, 1, 1.25, 1.5];
   const formatSpeed = (value) => (Number.isInteger(value) ? `${value.toFixed(1)}×` : `${value}×`);
+  const lessonIds = new Set(lessons.map((lesson) => lesson.id));
+  const restoreSet = (name) => {
+    const saved = JSON.parse(localStorage.getItem(`changelife:${name}`) || '[]');
+    return new Set(saved.filter((id) => lessonIds.has(id)));
+  };
 
   if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
   const lockViewport = () => {
@@ -31,8 +36,8 @@
     activeLine: -1,
     mode: localStorage.getItem('changelife:mode') || 'bilingual',
     speed: Number(localStorage.getItem('changelife:speed')) || 1,
-    favorites: new Set(JSON.parse(localStorage.getItem('changelife:favorites') || '[]')),
-    completed: new Set(JSON.parse(localStorage.getItem('changelife:completed') || '[]')),
+    favorites: restoreSet('favorites'),
+    completed: restoreSet('completed'),
     segments: [],
     toastTimer: 0,
   };
@@ -65,6 +70,15 @@
 
   const buildSegments = (duration = 120) => {
     const dialogue = currentLesson().dialogue;
+    const hasTimings = dialogue.every((turn) => Number.isFinite(turn.start) && Number.isFinite(turn.end));
+    if (hasTimings) {
+      state.segments = dialogue.map((turn, index) => ({
+        start: turn.start,
+        end: dialogue[index + 1]?.start ?? duration,
+      }));
+      updateTranscriptTimes();
+      return;
+    }
     const weights = dialogue.map((turn) => wordCount(turn.english) + 2.2);
     const total = weights.reduce((sum, weight) => sum + weight, 0);
     let cursor = 0;

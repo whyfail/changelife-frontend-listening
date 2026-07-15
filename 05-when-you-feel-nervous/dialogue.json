@@ -1,0 +1,109 @@
+{
+  "title": "When You Feel Nervous",
+  "dialogue": [
+    {
+      "speaker": "Emma",
+      "english": "Sometimes we feel nervous before a test, a game, or even a short talk with someone.",
+      "chinese": "有时候，我们在考试前、比赛前，甚至和别人简短交谈时都会感到紧张。",
+      "start": 0.0,
+      "end": 8.038
+    },
+    {
+      "speaker": "Emma",
+      "english": "It is a perfectly normal feeling, and everyone feels this way from time to time.",
+      "chinese": "这是一种完全正常的感受，每个人都会时不时地经历它。",
+      "start": 8.46,
+      "end": 15.455
+    },
+    {
+      "speaker": "Emma",
+      "english": "When that happens, I want to share a simple but very helpful tip with you today.",
+      "chinese": "当那种情况发生时，我想今天和你分享一个简单但非常有帮助的小技巧。",
+      "start": 15.876,
+      "end": 23.708
+    },
+    {
+      "speaker": "Emma",
+      "english": "First, try slow breathing. Close your eyes gently and breathe in slowly through your nose.",
+      "chinese": "首先，尝试慢呼吸。轻轻地闭上眼睛，然后慢慢地通过鼻子吸气。",
+      "start": 24.13,
+      "end": 34.435
+    },
+    {
+      "speaker": "Emma",
+      "english": "Then breathe out slowly through your mouth, as if you are blowing out a small candle.",
+      "chinese": "然后慢慢用嘴呼气，就像在吹灭一支小蜡烛。",
+      "start": 34.857,
+      "end": 42.998
+    },
+    {
+      "speaker": "Emma",
+      "english": "This helps your body relax. Your heart beats more slowly, and your mind feels much clearer.",
+      "chinese": "这会帮助身体放松，让心跳慢下来，头脑也变得更加清晰。",
+      "start": 43.42,
+      "end": 52.141
+    },
+    {
+      "speaker": "Emma",
+      "english": "Next, do one small action that feels very easy and comfortable for you right now.",
+      "chinese": "接下来，做一个你觉得现在非常容易且舒适的小动作。",
+      "start": 52.563,
+      "end": 60.343
+    },
+    {
+      "speaker": "Emma",
+      "english": "It could be standing up, stretching your arms, or simply smiling at yourself in the mirror.",
+      "chinese": "可以是站起来、伸展手臂，或者只是对着镜子里的自己微笑。",
+      "start": 60.765,
+      "end": 68.906
+    },
+    {
+      "speaker": "Emma",
+      "english": "That little movement tells your brain that you are safe, strong, and ready to move forward.",
+      "chinese": "这个小动作会告诉大脑：你很安全、很坚强，也准备好继续向前。",
+      "start": 69.328,
+      "end": 77.997
+    },
+    {
+      "speaker": "Emma",
+      "english": "You can try this before a test, a game, or any moment when you feel really worried.",
+      "chinese": "你可以在考试前、比赛前，或在任何你感到真正担心的时刻尝试这个方法。",
+      "start": 78.419,
+      "end": 86.148
+    },
+    {
+      "speaker": "Emma",
+      "english": "With practice, this will soon start to feel more natural and easier.",
+      "chinese": "多练习几次，这个方法很快就会变得更自然、更容易。",
+      "start": 86.569,
+      "end": 92.817
+    },
+    {
+      "speaker": "Emma",
+      "english": "Remember, feeling nervous does not mean something is wrong with you or that you are weak at all.",
+      "chinese": "记住，感到紧张并不意味着你有什么问题，也绝不代表你软弱。",
+      "start": 93.239,
+      "end": 101.908
+    },
+    {
+      "speaker": "Emma",
+      "english": "Slow breathing and one small action together can really make a big difference in how you feel.",
+      "chinese": "慢呼吸和一个小动作结合在一起，真的可以对你的感觉产生很大的不同。",
+      "start": 102.33,
+      "end": 111.167
+    },
+    {
+      "speaker": "Emma",
+      "english": "You are brave and capable, and you can handle it one breath at a time.",
+      "chinese": "你很勇敢，也很有能力，可以一次呼吸、一步一步地面对它。",
+      "start": 111.588,
+      "end": 120.0
+    }
+  ],
+  "source_title": "Original A2 daily English monologue",
+  "source_date": "2026-07-15",
+  "source_url": "05-when-you-feel-nervous/transcript.md",
+  "level": "CEFR A2 / US elementary grades 4-6",
+  "english_word_count": 220,
+  "editorial_version": 2
+}

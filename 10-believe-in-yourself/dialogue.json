@@ -1,0 +1,109 @@
+{
+  "title": "Believe in Yourself",
+  "dialogue": [
+    {
+      "speaker": "Emma",
+      "english": "Hi, I’m Emma. Today I want to talk about something that helps us every day.",
+      "chinese": "大家好，我是艾玛。今天我想和大家聊聊一件每天都会帮助我们的事。",
+      "start": 0.0,
+      "end": 7.97
+    },
+    {
+      "speaker": "Emma",
+      "english": "It’s called confidence, the feeling that we can try new things even when they seem hard.",
+      "chinese": "这叫自信，一种即使事情看起来困难，我们仍敢于尝试的感觉。",
+      "start": 8.377,
+      "end": 18.982
+    },
+    {
+      "speaker": "Emma",
+      "english": "Confidence doesn’t come from being perfect; it grows when we keep trying and never give up.",
+      "chinese": "自信不是来自完美，而是来自我们不断尝试、永不放弃的过程中慢慢增长的。",
+      "start": 19.389,
+      "end": 27.048
+    },
+    {
+      "speaker": "Emma",
+      "english": "When we make a mistake, we can ask ourselves what we learned and how to improve.",
+      "chinese": "当我们犯错时，可以问自己学到了什么，怎样可以做得更好。",
+      "start": 27.455,
+      "end": 34.604
+    },
+    {
+      "speaker": "Emma",
+      "english": "That small question turns a failure into a step forward, and our confidence gets a little stronger.",
+      "chinese": "这个小问题把失败变成前进的一步，让我们的自信变得更强大一点。",
+      "start": 35.011,
+      "end": 45.965
+    },
+    {
+      "speaker": "Emma",
+      "english": "It also helps to notice the progress we make, even if it seems tiny at first.",
+      "chinese": "注意到自己取得的进步也很有帮助，哪怕一开始看起来微不足道。",
+      "start": 46.372,
+      "end": 53.683
+    },
+    {
+      "speaker": "Emma",
+      "english": "Maybe we wrote a sentence without a spelling error, or we finished a short exercise on time.",
+      "chinese": "也许我们写了一个没有拼写错误的句子，或者按时完成了简短的练习。",
+      "start": 54.09,
+      "end": 61.947
+    },
+    {
+      "speaker": "Emma",
+      "english": "Those little wins remind us that we are getting better, and that feeling is truly encouraging.",
+      "chinese": "这些小小的胜利提醒我们正在变得更好，那种感觉真的很鼓舞人心。",
+      "start": 62.354,
+      "end": 71.282
+    },
+    {
+      "speaker": "Emma",
+      "english": "When we feel a bit proud, we can share it with a friend or write it in a small journal.",
+      "chinese": "当我们感到一点自豪时，可以和朋友分享，或者把这些进步写在小本子里。",
+      "start": 71.688,
+      "end": 77.93
+    },
+    {
+      "speaker": "Emma",
+      "english": "Writing down progress makes it easier to look back and see how far we have come.",
+      "chinese": "把进步写下来，让我们回头看时能清楚地看到自己走过的路。",
+      "start": 78.337,
+      "end": 85.996
+    },
+    {
+      "speaker": "Emma",
+      "english": "Remember, every expert was once a beginner who practiced a little each day with patience.",
+      "chinese": "记住，每位专家曾经都是每天坚持练习一点点、耐心学习的初学者。",
+      "start": 86.403,
+      "end": 94.522
+    },
+    {
+      "speaker": "Emma",
+      "english": "So if a task feels tough, take a deep breath, try one small step, and give it a chance.",
+      "chinese": "所以如果任务觉得很难，深呼吸，尝试迈出小一步，给它一个机会。",
+      "start": 94.929,
+      "end": 104.316
+    },
+    {
+      "speaker": "Emma",
+      "english": "Soon you will notice more confidence bubbling up inside you, like a warm sunrise.",
+      "chinese": "很快你会感受到更多的自信在内心涌动，像温暖的朝阳一样。",
+      "start": 104.723,
+      "end": 112.693
+    },
+    {
+      "speaker": "Emma",
+      "english": "You are enough, and every effort you make is proof of your growing strength.",
+      "chinese": "你已经足够好了，你付出的每一次努力都证明你正在变得更强大。",
+      "start": 113.1,
+      "end": 120.0
+    }
+  ],
+  "source_title": "Original A2 daily English monologue",
+  "source_date": "2026-07-15",
+  "source_url": "10-believe-in-yourself/transcript.md",
+  "level": "CEFR A2 / US elementary grades 4-6",
+  "english_word_count": 230,
+  "editorial_version": 2
+}

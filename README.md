@@ -1,12 +1,13 @@
-# ChangeLife Frontend Listening
+# ChangeLife Daily Listening
 
-一个面向英语初学者的前端技术新闻听力应用。项目包含 10 期 CEFR A1（小学英语水平）双人对话，每期约 2 分钟，并提供逐句同步的英汉字幕。
+一个面向英语初学者的日常英语听力应用。项目包含 10 期 CEFR A2（小学高年级水平）单人美式英语旁白，每期约 2 分钟，并提供逐句同步的英汉字幕。
 
 [在线体验](https://whyfail.github.io/changelife-frontend-listening/)
 
 ## 功能
 
-- 10 期前端技术新闻英语听力，每期约 2 分钟
+- 10 期生活、习惯和自我成长主题听力，每期约 2 分钟
+- 温和自然的美式女声，约 115–125 词/分钟
 - 英文、中文及双语字幕模式
 - 音频进度与字幕逐句同步
 - 自动跟随当前句，支持点击句子跳转播放
@@ -26,20 +27,20 @@ python3 -m http.server 8080
 
 ## 内容
 
-每个节目目录包含双人对话 MP3、英汉文本、Markdown 字幕和结构化 JSON 数据。
+每个节目目录包含单人旁白 MP3、英汉文本、Markdown 字幕和带精确分段时间的 JSON 数据。
 
-| # | Topic | Words | Audio | Source |
-|---:|---|---:|---:|---|
-| 1 | [React Foundation Launches](01-react-foundation/transcript.md) | 260 | 120.0s | [2026-02-24](https://react.dev/blog/2026/02/24/the-react-foundation) |
-| 2 | [React Compiler's First Stable Release](02-react-compiler-1/transcript.md) | 246 | 120.0s | [2025-10-07](https://react.dev/blog/2025/10/07/react-compiler-1) |
-| 3 | [Vite 8.0 Released](03-vite-8/transcript.md) | 259 | 120.0s | [2026-03-12](https://vite.dev/blog/announcing-vite8) |
-| 4 | [Vite 8.1 Is Out!](04-vite-8-1/transcript.md) | 251 | 120.0s | [2026-06-23](https://vite.dev/blog/announcing-vite8-1) |
-| 5 | [TypeScript 7 Release: Faster Compiler](05-typescript-7/transcript.md) | 247 | 120.0s | [2026-07-08](https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/) |
-| 6 | [New Web UI Tools at Google I/O 2026](06-new-web-ui-2026/transcript.md) | 247 | 120.0s | [2026-07-01](https://developer.chrome.com/blog/new-in-web-ui-io26) |
-| 7 | [Chrome 150 DevTools Update](07-chrome-devtools-150/transcript.md) | 263 | 120.0s | [2026-06-30](https://developer.chrome.com/blog/new-in-devtools-150) |
-| 8 | [New in Chrome 150](08-chrome-150/transcript.md) | 262 | 120.0s | [2026-06-30](https://developer.chrome.com/blog/new-in-chrome-150) |
-| 9 | [Chrome 151 Simplifies Camera and Mic Access](09-usermedia-element/transcript.md) | 249 | 120.0s | [2026-06-29](https://developer.chrome.com/blog/usermedia-html-element) |
-| 10 | [Smarter Clipboard Reading](10-selective-clipboard-read/transcript.md) | 267 | 120.0s | [2026-07-03](https://developer.chrome.com/blog/selective-format-read) |
+| # | Topic | Words | Audio |
+|---:|---|---:|---:|
+| 1 | [Small Steps Every Day](01-small-steps-every-day/transcript.md) | 228 | 120.0s |
+| 2 | [A Quiet Morning](02-a-quiet-morning/transcript.md) | 236 | 120.0s |
+| 3 | [The Power of Listening](03-the-power-of-listening/transcript.md) | 228 | 120.0s |
+| 4 | [The Power of Kind Words](04-the-power-of-kind-words/transcript.md) | 229 | 120.0s |
+| 5 | [When You Feel Nervous](05-when-you-feel-nervous/transcript.md) | 220 | 120.0s |
+| 6 | [A Walk After Dinner](06-a-walk-after-dinner/transcript.md) | 244 | 120.0s |
+| 7 | [A Break from Your Phone](07-a-break-from-your-phone/transcript.md) | 241 | 120.0s |
+| 8 | [Making a New Friend](08-making-a-new-friend/transcript.md) | 220 | 120.0s |
+| 9 | [A Peaceful Night](09-a-peaceful-night/transcript.md) | 231 | 120.0s |
+| 10 | [Believe in Yourself](10-believe-in-yourself/transcript.md) | 230 | 120.0s |
 
 ## 项目结构
 
@@ -55,7 +56,7 @@ python3 -m http.server 8080
 
 ## 内容说明
 
-节目主题基于表格中链接的官方技术新闻整理，英语对话和中文翻译用于语言学习。项目与 React、Vite、TypeScript、Google 或 Chrome 官方无隶属关系。
+英语旁白和中文翻译为语言学习场景原创内容，语音使用 MiniMax Speech 2.8 HD 生成。内容经过人工校对，但不能替代专业语言课程。
 
 ## License
 

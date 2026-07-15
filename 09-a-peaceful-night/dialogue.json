@@ -1,0 +1,109 @@
+{
+  "title": "A Peaceful Night",
+  "dialogue": [
+    {
+      "speaker": "Emma",
+      "english": "When the day is over, I give my mind a gentle sign that it is time to rest at home.",
+      "chinese": "一天结束后，我会给自己的大脑一个温柔的信号：回到家，该休息了。",
+      "start": 0.0,
+      "end": 8.784
+    },
+    {
+      "speaker": "Emma",
+      "english": "First, I put my phone away and make the room a little darker, softer, and quieter.",
+      "chinese": "首先，我把手机放到一旁，让房间变得暗一点、柔和一点，也安静一点。",
+      "start": 9.182,
+      "end": 18.611
+    },
+    {
+      "speaker": "Emma",
+      "english": "The soft light helps my eyes relax, and the quiet tells my body that the busy day is ending.",
+      "chinese": "柔和的灯光让眼睛放松，安静的环境也告诉身体：忙碌的一天快结束了。",
+      "start": 19.009,
+      "end": 27.89
+    },
+    {
+      "speaker": "Emma",
+      "english": "I wash my face, brush my teeth, and change into comfortable clothes without trying to hurry.",
+      "chinese": "我洗脸、刷牙，再换上舒服的衣服，整个过程都不让自己着急。",
+      "start": 28.288,
+      "end": 37.376
+    },
+    {
+      "speaker": "Emma",
+      "english": "Then I sit for a few quiet minutes with a simple book or some calm music.",
+      "chinese": "然后，我会安静地坐几分钟，看看简单的书，或者听听舒缓的音乐。",
+      "start": 37.775,
+      "end": 45.816
+    },
+    {
+      "speaker": "Emma",
+      "english": "I do not choose anything exciting because I want my thoughts to slow down before bed.",
+      "chinese": "我不会选择太刺激的内容，因为我希望睡前的思绪能慢慢平静下来。",
+      "start": 46.215,
+      "end": 53.709
+    },
+    {
+      "speaker": "Emma",
+      "english": "If a worry comes to mind, I write it on a small piece of paper for tomorrow.",
+      "chinese": "如果想起一件担心的事，我就把它写在小纸条上，留到明天再处理。",
+      "start": 54.107,
+      "end": 60.859
+    },
+    {
+      "speaker": "Emma",
+      "english": "This simple action lets me stop carrying that worry around in my head all night.",
+      "chinese": "这个简单的动作，让我不用整晚都把那件担心的事装在脑子里。",
+      "start": 61.258,
+      "end": 69.348
+    },
+    {
+      "speaker": "Emma",
+      "english": "Next, I take a slow breath in and an even slower breath out through my mouth.",
+      "chinese": "接着，我慢慢吸气，再用嘴更加缓慢地呼气。",
+      "start": 69.746,
+      "end": 76.949
+    },
+    {
+      "speaker": "Emma",
+      "english": "With each breath, my shoulders feel softer, and my whole body becomes a little heavier.",
+      "chinese": "每呼吸一次，我的肩膀就更放松一些，整个身体也变得更加沉静。",
+      "start": 77.347,
+      "end": 84.695
+    },
+    {
+      "speaker": "Emma",
+      "english": "I think about one good thing from the day, even if it was something very small.",
+      "chinese": "我会想想今天发生的一件好事，哪怕那只是一件很小的事。",
+      "start": 85.093,
+      "end": 91.991
+    },
+    {
+      "speaker": "Emma",
+      "english": "Maybe I enjoyed a warm meal, heard a kind word, or saw a beautiful evening sky.",
+      "chinese": "也许我享用了一顿热饭，听到一句暖心的话，或者看见了美丽的晚霞。",
+      "start": 92.39,
+      "end": 101.076
+    },
+    {
+      "speaker": "Emma",
+      "english": "These quiet thoughts help me feel thankful, safe, and ready to close my eyes and sleep.",
+      "chinese": "这些安静的想法让我心怀感激、感到安心，也准备好闭上眼睛入睡。",
+      "start": 101.474,
+      "end": 111.207
+    },
+    {
+      "speaker": "Emma",
+      "english": "A peaceful night begins with a few gentle choices, and everything else can wait until tomorrow morning.",
+      "chinese": "一个宁静的夜晚始于几个温柔的选择，其他事情都可以等到明天早晨。",
+      "start": 111.605,
+      "end": 120.0
+    }
+  ],
+  "source_title": "Original A2 daily English monologue",
+  "source_date": "2026-07-15",
+  "source_url": "09-a-peaceful-night/transcript.md",
+  "level": "CEFR A2 / US elementary grades 4-6",
+  "english_word_count": 231,
+  "editorial_version": 2
+}

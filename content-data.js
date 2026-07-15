@@ -1,972 +1,1152 @@
 window.CHANGELIFE_LESSONS = [
   {
-    "id": "01-react-foundation",
+    "id": "01-small-steps-every-day",
     "number": "01",
-    "audio": "01-react-foundation/audio.mp3",
-    "product": "React",
-    "logo": "assets/react.svg",
+    "audio": "01-small-steps-every-day/audio.mp3",
+    "product": "GROWTH",
+    "logo": "assets/changelife.svg",
     "accent": "#087f8c",
     "tint": "#e2f3f4",
-    "title": "React Foundation Launches",
+    "title": "Small Steps Every Day",
     "dialogue": [
       {
-        "speaker": "Mia",
-        "english": "Hey Ben, did you hear the big news about React?",
-        "chinese": "嘿 Ben，你听说了关于 React 的大新闻吗？"
+        "speaker": "Emma",
+        "english": "I used to wait for the perfect day to start, but now I know small steps work better.",
+        "chinese": "我以前总等完美的一天才开始，但现在我知道小步前进更有效。",
+        "start": 0.0,
+        "end": 7.85
       },
       {
-        "speaker": "Ben",
-        "english": "Yeah, I saw that the React Foundation just launched under the Linux Foundation!",
-        "chinese": "是啊，我看到 React 基金会刚刚在 Linux 基金会下成立了！"
+        "speaker": "Emma",
+        "english": "Every morning I drink a glass of water before my coffee, and it feels like a tiny win.",
+        "chinese": "每天早上我先喝一杯水再喝咖啡，感觉像小小的胜利。",
+        "start": 8.251,
+        "end": 16.701
       },
       {
-        "speaker": "Mia",
-        "english": "Exactly, and it means the React team now has its own home instead of being under Meta, for the developers and users.",
-        "chinese": "没错，这意味着 React 团队现在有了自己的归属，而不再是 Meta 旗下的，为开发者和用户提供了更好的环境。"
+        "speaker": "Emma",
+        "english": "Later I read just a few pages of a book, and the story slowly grows in my mind.",
+        "chinese": "后来我只读几页书，故事在脑海里慢慢展开。",
+        "start": 17.102,
+        "end": 24.744
       },
       {
-        "speaker": "Ben",
-        "english": "So React, React Native, and even JSX belong to this new foundation now?",
-        "chinese": "所以 React、React Native，甚至 JSX 现在都归这个新基金会所有了？"
+        "speaker": "Emma",
+        "english": "On the way home I walk a few blocks, listening to birds, and my heart feels lighter.",
+        "chinese": "回家路上我走几条街，听着鸟鸣，心情变得轻松。",
+        "start": 25.145,
+        "end": 33.546
       },
       {
-        "speaker": "Mia",
-        "english": "Yes, all three are owned by the independent foundation, not by Meta any more, right now.",
-        "chinese": "是的，这三个现在都由独立的基金会拥有，而不是 Meta，至少目前是这样。"
+        "speaker": "Emma",
+        "english": "I write a short note in my journal each night, noting what made me smile.",
+        "chinese": "每晚我在日记里写短笔记，记录让我微笑的事。",
+        "start": 33.947,
+        "end": 41.038
       },
       {
-        "speaker": "Ben",
-        "english": "That sounds like a safe place for the projects to grow.",
-        "chinese": "这听起来像是一个安全的成长空间，对项目来说很好。"
+        "speaker": "Emma",
+        "english": "Sometimes I practice a new word before bed, and the next day I use it naturally.",
+        "chinese": "有时睡前练习一个新单词，第二天就会自然地用出来。",
+        "start": 41.439,
+        "end": 49.289
       },
       {
-        "speaker": "Mia",
-        "english": "Think of it like a school that has its own building instead of sharing a big office.",
-        "chinese": "可以把它想象成一所学校有自己的楼，而不是和大家共用一个大办公室。"
+        "speaker": "Emma",
+        "english": "All these tiny moments add up like drops of water filling a glass, drop by drop.",
+        "chinese": "这些微小的时刻像水滴一样一点一点地装满杯子。",
+        "start": 49.689,
+        "end": 58.74
       },
       {
-        "speaker": "Ben",
-        "english": "I also heard that eight companies joined as founding members to support the work, and they bring money and resources.",
-        "chinese": "我还听说有八家公司加入了创始成员，来支持这项工作，而且他们带来了资金和资源。"
+        "speaker": "Emma",
+        "english": "I no longer wait for a perfect moment because each ordinary day holds a chance to grow.",
+        "chinese": "我不再等待完美的时刻，因为每一天都有成长的机会。",
+        "start": 59.141,
+        "end": 67.934
       },
       {
-        "speaker": "Mia",
-        "english": "They’re like eight friends who each help keep the project running smoothly.",
-        "chinese": "他们就像八个朋友，每个人都帮助项目顺利运行。"
+        "speaker": "Emma",
+        "english": "That shift removes pressure and lets me enjoy the gentle rhythm of simple progress.",
+        "chinese": "这种转变减轻了压力，让我享受简单进步的柔和节奏。",
+        "start": 68.335,
+        "end": 76.626
       },
       {
-        "speaker": "Ben",
-        "english": "And the technical choices still come from the React contributors and maintainers, right?",
-        "chinese": "那么技术决策仍然由 React 的贡献者和维护者来决定，对吧？"
+        "speaker": "Emma",
+        "english": "I also share a quick walk with my friend, and we both feel more connected.",
+        "chinese": "我还和朋友们一起快走，彼此感觉更亲近。",
+        "start": 77.026,
+        "end": 83.774
       },
       {
-        "speaker": "Mia",
-        "english": "Yes, the foundation gives them resources and guidance, but the code decisions stay with the community.",
-        "chinese": "是的，基金会为他们提供资源和建议，但代码决策仍然由社区决定。"
+        "speaker": "Emma",
+        "english": "When I tell them about small steps, their faces light up, and they try something tiny too.",
+        "chinese": "当我告诉他们小步前进的事，他们的眼睛亮了，也会尝试做一点小事。",
+        "start": 84.175,
+        "end": 93.115
       },
       {
-        "speaker": "Ben",
-        "english": "That keeps the spirit of open source alive while offering more stability.",
-        "chinese": "这样既保持了开源精神，又提供了更多的稳定性。"
+        "speaker": "Emma",
+        "english": "Later I notice how much I have changed, and I feel proud of every little effort.",
+        "chinese": "后来我注意到自己变化很大，为每一点小努力感到骄傲。",
+        "start": 93.516,
+        "end": 101.109
       },
       {
-        "speaker": "Mia",
-        "english": "Think of it like a sports team that gets its own stadium and budget, but the coaches still pick the plays.",
-        "chinese": "想象成一支球队拥有自己的体育场和预算，但教练仍然决定战术。"
+        "speaker": "Emma",
+        "english": "Now I look forward to tomorrow's tiny challenge, knowing it will add up to something beautiful.",
+        "chinese": "现在我期待明天的小挑战，知道它会累积成美好的事情。",
+        "start": 101.51,
+        "end": 111.307
       },
       {
-        "speaker": "Ben",
-        "english": "I’m curious how this will affect React Native and JSX in future updates, and what new features we might see.",
-        "chinese": "我很好奇这对 React Native 和 JSX 的未来更新会有什么影响，也期待看到新的特性。"
-      },
-      {
-        "speaker": "Mia",
-        "english": "The foundation says the roadmap stays the same, just with more support from the members, and better funding for the teams.",
-        "chinese": "基金会表示路线图保持不变，只是会得到成员更多的支持，以及团队更好的资金支持。"
-      },
-      {
-        "speaker": "Ben",
-        "english": "Great, I think this news will encourage more developers to try React and contribute, and maybe create new apps for phones.",
-        "chinese": "太好了，我认为这个消息会鼓励更多开发者尝试 React 并贡献力量，也许还会为手机开发新的应用。"
+        "speaker": "Emma",
+        "english": "Remember, one small step each day can turn a quiet dream into a bright reality.",
+        "chinese": "记住，每天迈出一步可以把安静的梦想变成明亮的现实。",
+        "start": 111.708,
+        "end": 119.999
       }
     ],
-    "source_title": "The React Foundation: A New Home for React Hosted by the Linux Foundation",
-    "source_date": "2026-02-24",
-    "source_url": "https://react.dev/blog/2026/02/24/the-react-foundation",
-    "level": "CEFR A1 / US elementary grades 3-5",
-    "english_word_count": 260
+    "source_title": "Original A2 daily English monologue",
+    "source_date": "2026-07-15",
+    "source_url": "01-small-steps-every-day/transcript.md",
+    "level": "CEFR A2 / US elementary grades 4-6",
+    "english_word_count": 228
   },
   {
-    "id": "02-react-compiler-1",
+    "id": "02-a-quiet-morning",
     "number": "02",
-    "audio": "02-react-compiler-1/audio.mp3",
-    "product": "React",
-    "logo": "assets/react.svg",
-    "accent": "#087f8c",
-    "tint": "#e2f3f4",
-    "title": "React Compiler's First Stable Release",
+    "audio": "02-a-quiet-morning/audio.mp3",
+    "product": "MORNING",
+    "logo": "assets/changelife.svg",
+    "accent": "#b45309",
+    "tint": "#fff2d8",
+    "title": "A Quiet Morning",
     "dialogue": [
       {
-        "speaker": "Mia",
-        "english": "Hey Ben, did you hear the news? React Compiler just released its very first stable version!",
-        "chinese": "嘿 Ben，你听到消息了吗？React Compiler 刚刚发布了第一个稳定版本！"
+        "speaker": "Emma",
+        "english": "The morning sun came through my window slowly, like it knew I needed a gentle start.",
+        "chinese": "早晨的阳光慢慢透过窗户洒进来，仿佛它知道我需要一个温柔的开始。",
+        "start": 0.0,
+        "end": 6.477
       },
       {
-        "speaker": "Ben",
-        "english": "No, I haven't. What exactly is React Compiler?",
-        "chinese": "没有，我还没听说。React Compiler 到底是什么？"
+        "speaker": "Emma",
+        "english": "I did not jump out of bed right away. I stayed still for a moment and breathed deeply.",
+        "chinese": "我没有立刻跳下床。我静静地躺了一会儿，深深地呼吸着。",
+        "start": 6.849,
+        "end": 14.63
       },
       {
-        "speaker": "Mia",
-        "english": "It's a special tool for web developers. It helps make websites run faster and smoother.",
-        "chinese": "它是网页开发者的一个特殊工具。它有助于让网站运行得更快更流畅。"
+        "speaker": "Emma",
+        "english": "That quiet pause made my mind feel light and ready for whatever the day would bring.",
+        "chinese": "那片刻的安静让我的心灵感到轻松，准备好迎接这一天的到来。",
+        "start": 15.002,
+        "end": 21.763
       },
       {
-        "speaker": "Ben",
-        "english": "Oh, like giving a bike a tune-up to make it go faster?",
-        "chinese": "哦，就像给自行车调速让它骑得更快一样？"
+        "speaker": "Emma",
+        "english": "I sat up slowly and took a few sips of cool water. It helped me wake up gently.",
+        "chinese": "我慢慢坐起来，喝了几口凉水。它帮助我轻柔地醒来。",
+        "start": 22.134,
+        "end": 30.744
       },
       {
-        "speaker": "Mia",
-        "english": "Exactly! It can automatically optimize how a React app works, without extra work from the developer.",
-        "chinese": "没错！它能自动优化 React 应用的工作方式，无需开发者额外工作。"
+        "speaker": "Emma",
+        "english": "Next, I held a warm cup of tea between my hands. The heat felt soothing and calming.",
+        "chinese": "然后，我把一杯温热的茶捧在手中。那热度让我感到舒缓和平静。",
+        "start": 31.115,
+        "end": 39.351
       },
       {
-        "speaker": "Ben",
-        "english": "That sounds really helpful. Is it difficult to start using it?",
-        "chinese": "听起来真的很实用。开始使用它困难吗？"
+        "speaker": "Emma",
+        "english": "I looked out the window at the quiet street below. Everything seemed peaceful and still.",
+        "chinese": "我望向窗外，看着下面安静的街道。一切看起来都那么宁静安详。",
+        "start": 39.722,
+        "end": 47.594
       },
       {
-        "speaker": "Mia",
-        "english": "Not at all. This release also includes lint rules and better tools. These make it easier for teams to adopt it.",
-        "chinese": "一点也不。这个版本还包含了 lint 规则和更好的工具。这些让团队更容易采用它。"
+        "speaker": "Emma",
+        "english": "I thought about the day ahead without worry. I felt calm and curious about what might happen.",
+        "chinese": "我心平气和地想着这一天将会发生什么。我感到平静且对未知充满好奇。",
+        "start": 47.966,
+        "end": 56.485
       },
       {
-        "speaker": "Ben",
-        "english": "Lint rules? Can you explain that in a simple way?",
-        "chinese": "Lint 规则？你能简单解释一下吗？"
+        "speaker": "Emma",
+        "english": "I reminded myself to be grateful for this quiet moment. Gratitude made my heart feel full and warm.",
+        "chinese": "我提醒自己珍惜这段安静的时光。感恩让我的内心感到充实和温暖。",
+        "start": 56.856,
+        "end": 66.203
       },
       {
-        "speaker": "Mia",
-        "english": "Sure! Think of lint rules like a friendly helper that checks your code and suggests improvements. Like a spell-check for programming.",
-        "chinese": "当然！可以把 lint 规则想象成一个友好的助手，它检查你的代码并提出改进建议。就像编程的拼写检查器。"
+        "speaker": "Emma",
+        "english": "When mornings feel rushed, my thoughts feel tangled and noisy. But this slow start helped me think clearly.",
+        "chinese": "当早晨很匆忙时，我的思绪会变得混乱嘈杂。但这样缓慢的开始帮助我清晰地思考。",
+        "start": 66.575,
+        "end": 75.968
       },
       {
-        "speaker": "Ben",
-        "english": "I see! So, should developers start using React Compiler on all their projects right away?",
-        "chinese": "我懂了！那开发者应该马上在所有项目中使用 React Compiler 吗？"
+        "speaker": "Emma",
+        "english": "I know not every morning can be perfect, but even a few calm minutes can make a big difference.",
+        "chinese": "我知道不是每天早晨都能完美，但即使只有几分钟的平静也能带来很大的不同。",
+        "start": 76.339,
+        "end": 84.064
       },
       {
-        "speaker": "Mia",
-        "english": "The recommendation is to test it first in your own apps. Make sure it works well before using it in big projects.",
-        "chinese": "建议是先在自己的应用中测试一下。确保它运行良好后再在大项目中使用。"
+        "speaker": "Emma",
+        "english": "Small choices like sitting still or holding a warm drink helped me feel grounded and present.",
+        "chinese": "像静坐或捧着温暖饮品这样的小选择，帮助我感到踏实和专注。",
+        "start": 84.435,
+        "end": 93.374
       },
       {
-        "speaker": "Ben",
-        "english": "That makes a lot of sense. It's wise to try new tools on a small project first, just to be safe.",
-        "chinese": "这很有道理。在小项目上先试新工具是很明智的，这样比较安全。"
+        "speaker": "Emma",
+        "english": "Over time, this gentle routine became something I looked forward to each morning with quiet joy.",
+        "chinese": "渐渐地，这个温柔的晨间习惯变成了我每天早晨都会怀着安静喜悦期待的事情。",
+        "start": 93.745,
+        "end": 103.24
       },
       {
-        "speaker": "Mia",
-        "english": "Absolutely! By the way, the official release date was October 7th, 2025. It's very recent news!",
-        "chinese": "没错！顺便说一下，正式发布日是 2025 年 10 月 7 日。这是非常新鲜的消息！"
+        "speaker": "Emma",
+        "english": "I hope you find your own peaceful moments in the early hours. They are worth protecting.",
+        "chinese": "我希望你在清晨也能找到属于自己的宁静时刻。这些时刻值得被守护。",
+        "start": 103.611,
+        "end": 112.04
       },
       {
-        "speaker": "Ben",
-        "english": "Wow, thanks for letting me know, Mia. I'm curious to try it out myself.",
-        "chinese": "哇，谢谢你告诉我，Mia。我很好奇想自己试试。"
-      },
-      {
-        "speaker": "Mia",
-        "english": "You're welcome, Ben! I think it could be really useful for improving how websites work.",
-        "chinese": "不客气，Ben！我觉得它对改善网站运行真的很有用。"
-      },
-      {
-        "speaker": "Ben",
-        "english": "Me too! I'll probably experiment with it this weekend on a personal project.",
-        "chinese": "我也是！我可能这个周末在一个个人项目上试验一下。"
+        "speaker": "Emma",
+        "english": "Starting your day with calm can change how you feel, one gentle morning at a time.",
+        "chinese": "用平静开启新的一天，可以一点一点地改变你的感受。",
+        "start": 112.411,
+        "end": 120.0
       }
     ],
-    "source_title": "React Compiler v1.0",
-    "source_date": "2025-10-07",
-    "source_url": "https://react.dev/blog/2025/10/07/react-compiler-1",
-    "level": "CEFR A1 / US elementary grades 3-5",
-    "english_word_count": 246
+    "source_title": "Original A2 daily English monologue",
+    "source_date": "2026-07-15",
+    "source_url": "02-a-quiet-morning/transcript.md",
+    "level": "CEFR A2 / US elementary grades 4-6",
+    "english_word_count": 236
   },
   {
-    "id": "03-vite-8",
+    "id": "03-the-power-of-listening",
     "number": "03",
-    "audio": "03-vite-8/audio.mp3",
-    "product": "Vite",
-    "logo": "assets/vite.svg",
-    "accent": "#6653d8",
-    "tint": "#eeebff",
-    "title": "Vite 8.0 Released",
+    "audio": "03-the-power-of-listening/audio.mp3",
+    "product": "LISTENING",
+    "logo": "assets/changelife.svg",
+    "accent": "#2563a8",
+    "tint": "#e5f0fb",
+    "title": "The Power of Listening",
     "dialogue": [
       {
-        "speaker": "Mia",
-        "english": "Hey Ben, did you see the news? Vite 8.0 is out today, March 12, 2026.",
-        "chinese": "嘿 Ben，你看到新闻了吗？Vite 8.0 今天发布，2026 年 3 月 12 日。"
+        "speaker": "Emma",
+        "english": "Hello, I'm Emma. I want to share a small habit that changed how I learn English.",
+        "chinese": "大家好，我是Emma。我想分享一个小习惯，它改变了我学英语的方式。",
+        "start": 0.0,
+        "end": 7.159
       },
       {
-        "speaker": "Ben",
-        "english": "Wow, I didn’t know. What’s new in this version?",
-        "chinese": "哇，我不知道。这个版本有什么新内容？"
+        "speaker": "Emma",
+        "english": "Every day I listen to simple English for just ten minutes while I have my morning tea.",
+        "chinese": "每天早上喝茶时，我只听十分钟简单的英语。",
+        "start": 7.555,
+        "end": 15.549
       },
       {
-        "speaker": "Mia",
-        "english": "They replaced the old bundlers with a single tool called Rolldown. It’s built in Rust, a language that runs very fast.",
-        "chinese": "他们用一个叫 Rolldown 的统一工具取代了旧的打包器。它是用 Rust 编写的，Rust 是一种运行非常快的语言。"
+        "speaker": "Emma",
+        "english": "The words are easy, the sentences are short, and the stories are about daily life.",
+        "chinese": "词汇简单，句子短，故事都是关于日常生活的。",
+        "start": 15.945,
+        "end": 24.29
       },
       {
-        "speaker": "Ben",
-        "english": "A bundler is like a chef that mixes all the ingredients into one dish, right?",
-        "chinese": "打包器就像一位厨师，把所有原料混合成一道菜，对吧？"
+        "speaker": "Emma",
+        "english": "After a few days, I start recognizing phrases without trying, like greeting someone or ordering a drink.",
+        "chinese": "几天后，我开始不自觉地认出短语，比如和别人打招呼或点饮料。",
+        "start": 24.685,
+        "end": 35.739
       },
       {
-        "speaker": "Mia",
-        "english": "Exactly. And Rolldown is written in Rust, which is the same language used for browsers’ fast engines. It can combine code much quicker.",
-        "chinese": "没错。Rolldown 是用 Rust 写的，Rust 也是浏览器快速引擎使用的语言。它可以更快地合并代码。"
+        "speaker": "Emma",
+        "english": "It feels like the language is slowly becoming a part of my everyday world.",
+        "chinese": "感觉语言慢慢变成了我日常生活的一部分。",
+        "start": 36.135,
+        "end": 42.798
       },
       {
-        "speaker": "Ben",
-        "english": "How much faster? The official numbers say 10 to 30 times faster than before.",
-        "chinese": "快多少？官方数据显示比之前快 10 到 30 倍。"
+        "speaker": "Emma",
+        "english": "I also listen while walking to school or waiting for the bus, using free time to learn something new.",
+        "chinese": "我也会在走路上学或等公交车时听，利用空闲时间学点新东西。",
+        "start": 43.194,
+        "end": 52.228
       },
       {
-        "speaker": "Mia",
-        "english": "Yes, that’s a huge jump. In practice, a build that used to take a minute now finishes in a few seconds.",
-        "chinese": "是的，提升很大。实际上，以前需要一分钟的构建现在几秒钟就能完成。"
+        "speaker": "Emma",
+        "english": "At first I had to pause often, but now I can follow the main ideas without stopping.",
+        "chinese": "一开始我常常暂停，但现在我能跟上主要意思，不用停下来。",
+        "start": 52.624,
+        "end": 59.928
       },
       {
-        "speaker": "Ben",
-        "english": "That sounds great for developers. Do they keep the old plugins?",
-        "chinese": "这对开发者来说听起来很棒。他们还保留旧的插件吗？"
+        "speaker": "Emma",
+        "english": "My pronunciation improves too, because I hear the correct sounds and repeat them softly.",
+        "chinese": "我的发音也会进步，因为我能听到正确的声音并轻声跟读。",
+        "start": 60.324,
+        "end": 68.076
       },
       {
-        "speaker": "Mia",
-        "english": "Yes, Vite 8 still works with the same wide set of plugins you already know, thanks to broad compatibility.",
-        "chinese": "是的，Vite 8 仍然兼容你已经熟悉的广泛插件，这得益于广泛的兼容性。"
+        "speaker": "Emma",
+        "english": "I keep a small notebook where I write new words I hear, then I practice them later.",
+        "chinese": "我有一个小本子，记录听到的新单词，然后稍后练习。",
+        "start": 68.472,
+        "end": 76.817
       },
       {
-        "speaker": "Ben",
-        "english": "I heard they added a searchable plugin registry. Is it like a library you can browse online?",
-        "chinese": "我听说他们推出了可搜索的插件库。是不是像可以在线浏览的图书馆？"
+        "speaker": "Emma",
+        "english": "When I meet a friend, I try to use a short phrase I learned, and it feels wonderful.",
+        "chinese": "当我遇到朋友时，我会尝试用学到的简短句子，感觉很棒。",
+        "start": 77.212,
+        "end": 85.4
       },
       {
-        "speaker": "Mia",
-        "english": "Exactly. Developers can search for a plugin by name and see how to add it to their project right away.",
-        "chinese": "没错。开发者可以按名称搜索插件，并立即看到如何将其添加到项目中。"
+        "speaker": "Emma",
+        "english": "The more I listen, the more natural English sounds, like a familiar song I love.",
+        "chinese": "我听得越多，英语听起来就越自然，像我喜欢的一首熟悉的歌。",
+        "start": 85.796,
+        "end": 93.983
       },
       {
-        "speaker": "Ben",
-        "english": "That makes it easier to extend Vite without hunting for code online.",
-        "chinese": "这样就不用在网上搜索代码，扩展 Vite 更容易了。"
+        "speaker": "Emma",
+        "english": "I no longer feel nervous when I hear a conversation; I feel curious and ready to join.",
+        "chinese": "我不再听到对话时紧张，而是感到好奇，想加入进去。",
+        "start": 94.379,
+        "end": 102.675
       },
       {
-        "speaker": "Mia",
-        "english": "And the whole system stays simple: one tool for building in both development and production.",
-        "chinese": "而且整个系统保持简洁：开发阶段和生产阶段都使用同一个工具。"
+        "speaker": "Emma",
+        "english": "If you give yourself even a few minutes of simple listening each day, you will see progress.",
+        "chinese": "如果每天给自己几分钟简单的听力，你会看到进步。",
+        "start": 103.071,
+        "end": 111.415
       },
       {
-        "speaker": "Ben",
-        "english": "So developers can move faster and spend less time waiting for builds.",
-        "chinese": "所以开发者可以更快地推进工作，减少等待构建的时间。"
-      },
-      {
-        "speaker": "Mia",
-        "english": "I’m excited to try it out. Maybe we can test a small project this week.",
-        "chinese": "我很想试试。也许我们这周可以测试一个小项目。"
-      },
-      {
-        "speaker": "Ben",
-        "english": "Sounds good! Let’s start a tiny demo and see the speed difference ourselves.",
-        "chinese": "听起来不错！让我们开始一个小型演示，看看速度差异。"
+        "speaker": "Emma",
+        "english": "Keep listening, and you will watch your confidence grow, one gentle sentence at a time.",
+        "chinese": "继续听下去，你会看到自信慢慢增长，一句一句温柔的句子。",
+        "start": 111.811,
+        "end": 119.999
       }
     ],
-    "source_title": "Vite 8.0 is out!",
-    "source_date": "2026-03-12",
-    "source_url": "https://vite.dev/blog/announcing-vite8",
-    "level": "CEFR A1 / US elementary grades 3-5",
-    "english_word_count": 259
+    "source_title": "Original A2 daily English monologue",
+    "source_date": "2026-07-15",
+    "source_url": "03-the-power-of-listening/transcript.md",
+    "level": "CEFR A2 / US elementary grades 4-6",
+    "english_word_count": 228
   },
   {
-    "id": "04-vite-8-1",
+    "id": "04-the-power-of-kind-words",
     "number": "04",
-    "audio": "04-vite-8-1/audio.mp3",
-    "product": "Vite",
-    "logo": "assets/vite.svg",
-    "accent": "#6653d8",
-    "tint": "#eeebff",
-    "title": "Vite 8.1 Is Out!",
+    "audio": "04-the-power-of-kind-words/audio.mp3",
+    "product": "KINDNESS",
+    "logo": "assets/changelife.svg",
+    "accent": "#b83265",
+    "tint": "#fbe8f0",
+    "title": "The Power of Kind Words",
     "dialogue": [
       {
-        "speaker": "Mia",
-        "english": "Hey Ben, did you see the news about Vite 8.1? I just read it online.",
-        "chinese": "嘿 Ben，你看到关于 Vite 8.1 的新闻了吗？我刚才在网上看到的。"
+        "speaker": "Emma",
+        "english": "I love noticing how a few simple words can turn a gray day into something brighter.",
+        "chinese": "我喜欢注意到几句简单的话如何能把灰暗的一天变得明亮起来。",
+        "start": 0.0,
+        "end": 7.176
       },
       {
-        "speaker": "Ben",
-        "english": "Yeah, I read that it came out on June 23rd, 2026. It sounds really exciting for developers.",
-        "chinese": "是的，我看到它是在2026年6月23日发布的。对开发者来说真的很令人兴奋。"
+        "speaker": "Emma",
+        "english": "When I told my friend her hair looked nice, she smiled and the whole room felt warmer.",
+        "chinese": "当我告诉朋友她的头发很好看时，她笑了，整个房间都感到更温暖。",
+        "start": 7.543,
+        "end": 14.171
       },
       {
-        "speaker": "Mia",
-        "english": "They added an experimental bundled mode for really big apps, like a super fast assembly line.",
-        "chinese": "他们为非常大的应用添加了一个实验性的打包模式，就像一条超快的装配线。"
+        "speaker": "Emma",
+        "english": "Saying thank you to the cashier after a busy morning always makes me feel more connected.",
+        "chinese": "在忙碌的早晨后对收银员说声谢谢，总让我感到更加亲近。",
+        "start": 14.537,
+        "end": 22.262
       },
       {
-        "speaker": "Ben",
-        "english": "That sounds like a super fast building tool for huge projects, kind of like a turbo crane.",
-        "chinese": "这听起来像是一个用于大型项目的超快构建工具，有点像 turbo 起重机。"
+        "speaker": "Emma",
+        "english": "Kind words are like little rays of sunlight. They can lift a heavy heart without much effort.",
+        "chinese": "善意的话语就像一缕缕阳光，不费多少力气就能让沉重的心轻松起来。",
+        "start": 22.628,
+        "end": 30.533
       },
       {
-        "speaker": "Mia",
-        "english": "I heard it was tested with ten thousand React components, which is a massive amount.",
-        "chinese": "我听说它用一万个 React 组件进行了测试，这是一个巨大的数量。"
+        "speaker": "Emma",
+        "english": "Many people walk around feeling unseen, but a simple hello can remind them they matter.",
+        "chinese": "许多人在周围走动时感到被忽视，但一句简单的问候可以提醒他们，他们很重要。",
+        "start": 30.899,
+        "end": 38.937
       },
       {
-        "speaker": "Ben",
-        "english": "Wow, ten thousand components, that is a huge number, like a whole city of tiny pieces!",
-        "chinese": "哇，一万个组件，这是一个巨大的数字，就像一座由微小部件组成的城市！"
+        "speaker": "Emma",
+        "english": "I try to start each day with one warm phrase, such as, \"Have a nice day.\"",
+        "chinese": "我会试着每天先说一句温暖的话，比如“祝你今天愉快”。",
+        "start": 39.304,
+        "end": 46.749
       },
       {
-        "speaker": "Mia",
-        "english": "The test showed startup became about fifteen times faster, almost like a rocket launch!",
-        "chinese": "测试显示启动速度快了大约十五倍，几乎像火箭发射一样！"
+        "speaker": "Emma",
+        "english": "It does not have to sound perfect. Being honest and kind is what makes the words feel good.",
+        "chinese": "这句话不必听起来很完美，真诚和善意才会让人感到温暖。",
+        "start": 47.115,
+        "end": 55.792
       },
       {
-        "speaker": "Ben",
-        "english": "Fifteen times faster? That is like going from a slow bike to a super fast car!",
-        "chinese": "快十五倍？那就像从慢自行车变成超级快的汽车！"
+        "speaker": "Emma",
+        "english": "When we share kindness, relationships grow warmer, like a fire that spreads gently across a room.",
+        "chinese": "当我们分享善意时，关系会变得更温暖，就像火焰在房间里轻轻蔓延。",
+        "start": 56.158,
+        "end": 64.477
       },
       {
-        "speaker": "Mia",
-        "english": "Also, full page reload was about ten times faster, saving lots of waiting time.",
-        "chinese": "另外，整个页面重新加载快了大致十倍，节省了很多等待时间。"
+        "speaker": "Emma",
+        "english": "I remember a stranger once told me, \"You are doing great,\" and those words lifted my whole afternoon.",
+        "chinese": "我记得有个陌生人曾对我说“你做得很好”，那句话点亮了我整个下午。",
+        "start": 64.843,
+        "end": 75.165
       },
       {
-        "speaker": "Ben",
-        "english": "Ten times faster means less waiting for big apps, so developers stay in the flow.",
-        "chinese": "快十倍意味着大应用等待时间更少，开发者可以保持流畅。"
+        "speaker": "Emma",
+        "english": "That tiny comment reminded me that a few seconds of encouragement can echo for hours.",
+        "chinese": "那句小小的鼓励让我意识到，几秒钟的激励可以回荡数小时。",
+        "start": 75.532,
+        "end": 84.712
       },
       {
-        "speaker": "Mia",
-        "english": "Another cool thing is direct WebAssembly ESM imports, like adding fast code blocks.",
-        "chinese": "另一个酷的功能是直接导入 WebAssembly ESM，就像添加快速的代码块。"
+        "speaker": "Emma",
+        "english": "When we speak kindly, the listener’s mood often brightens, and sometimes they pass that light on.",
+        "chinese": "当我们友善地说话时，听者的情绪往往会变得明朗，有时他们还会把那份光亮传递下去。",
+        "start": 85.079,
+        "end": 93.308
       },
       {
-        "speaker": "Ben",
-        "english": "You can now bring in fast WebAssembly code like normal modules, no extra steps.",
-        "chinese": "现在你可以像普通模块一样引入快速的 WebAssembly 代码，无需额外步骤。"
+        "speaker": "Emma",
+        "english": "I challenge myself to notice one opportunity each day to say something gentle and true.",
+        "chinese": "我挑战自己每天留意一次机会，说一句温和而真诚的话。",
+        "start": 93.674,
+        "end": 101.948
       },
       {
-        "speaker": "Mia",
-        "english": "There are also experimental chunk import maps for better loading, like a map for a treasure hunt.",
-        "chinese": "还有实验性的分块导入映射，用于更好的加载，像寻宝地图一样。"
+        "speaker": "Emma",
+        "english": "It can be for a family member, a friend, or even someone I pass on the street.",
+        "chinese": "这句话可以送给家人、朋友，甚至是我在街上遇到的人。",
+        "start": 102.314,
+        "end": 108.897
       },
       {
-        "speaker": "Ben",
-        "english": "Chunk import maps act like a map that tells the browser where each part lives, so it finds things quickly.",
-        "chinese": "分块导入映射就像一张告诉浏览器每个部分所在位置的地图，这样它可以快速找到内容。"
-      },
-      {
-        "speaker": "Mia",
-        "english": "All these changes should help developers build huge apps more smoothly, like a well‑oiled machine.",
-        "chinese": "所有这些更改应该帮助开发者更顺畅地构建大型应用，像一台润滑良好的机器。"
-      },
-      {
-        "speaker": "Ben",
-        "english": "I am excited to try Vite 8.1 and see the speed boost for myself!",
-        "chinese": "我很期待尝试 Vite 8.1，亲眼看看速度提升！"
+        "speaker": "Emma",
+        "english": "Remember, your kind words are like small seeds. They can grow into warm and lasting connections.",
+        "chinese": "记住，你善意的话语就像小种子，可以长成温暖而长久的关系。",
+        "start": 109.263,
+        "end": 120.0
       }
     ],
-    "source_title": "Vite 8.1 is out!",
-    "source_date": "2026-06-23",
-    "source_url": "https://vite.dev/blog/announcing-vite8-1",
-    "level": "CEFR A1 / US elementary grades 3-5",
-    "english_word_count": 251
+    "source_title": "Original A2 daily English monologue",
+    "source_date": "2026-07-15",
+    "source_url": "04-the-power-of-kind-words/transcript.md",
+    "level": "CEFR A2 / US elementary grades 4-6",
+    "english_word_count": 229
   },
   {
-    "id": "05-typescript-7",
+    "id": "05-when-you-feel-nervous",
     "number": "05",
-    "audio": "05-typescript-7/audio.mp3",
-    "product": "TypeScript",
-    "logo": "assets/typescript.svg",
-    "accent": "#2166a5",
-    "tint": "#e5f0fa",
-    "title": "TypeScript 7 Release: Faster Compiler",
+    "audio": "05-when-you-feel-nervous/audio.mp3",
+    "product": "CALM",
+    "logo": "assets/changelife.svg",
+    "accent": "#50723c",
+    "tint": "#edf4e7",
+    "title": "When You Feel Nervous",
     "dialogue": [
       {
-        "speaker": "Mia",
-        "english": "Hey Ben, did you hear? TypeScript 7 was released yesterday, and it’s a big update!",
-        "chinese": "嘿 Ben，你听说了吗？TypeScript 7 昨天发布了，这可是个大更新！"
+        "speaker": "Emma",
+        "english": "Sometimes we feel nervous before a test, a game, or even a short talk with someone.",
+        "chinese": "有时候，我们在考试前、比赛前，甚至和别人简短交谈时都会感到紧张。",
+        "start": 0.0,
+        "end": 8.038
       },
       {
-        "speaker": "Ben",
-        "english": "Whoa! I saw a headline about it. What’s the main change this time for developers?",
-        "chinese": "哇！我看到了一条新闻标题。它这次对开发者有什么主要变化？"
+        "speaker": "Emma",
+        "english": "It is a perfectly normal feeling, and everyone feels this way from time to time.",
+        "chinese": "这是一种完全正常的感受，每个人都会时不时地经历它。",
+        "start": 8.46,
+        "end": 15.455
       },
       {
-        "speaker": "Mia",
-        "english": "The team rewrote the compiler in a language called Go, which is known for speed.",
-        "chinese": "团队用一种叫 Go 的语言重写了编译器，这种语言以速度快著称。"
+        "speaker": "Emma",
+        "english": "When that happens, I want to share a simple but very helpful tip with you today.",
+        "chinese": "当那种情况发生时，我想今天和你分享一个简单但非常有帮助的小技巧。",
+        "start": 15.876,
+        "end": 23.708
       },
       {
-        "speaker": "Ben",
-        "english": "Go? I thought TypeScript used JavaScript. How does using Go help the compiler in practice?",
-        "chinese": "Go？我以为 TypeScript 用的是 JavaScript。使用 Go 在实践中怎么帮助编译器？"
+        "speaker": "Emma",
+        "english": "First, try slow breathing. Close your eyes gently and breathe in slowly through your nose.",
+        "chinese": "首先，尝试慢呼吸。轻轻地闭上眼睛，然后慢慢地通过鼻子吸气。",
+        "start": 24.13,
+        "end": 34.435
       },
       {
-        "speaker": "Mia",
-        "english": "It works with JavaScript, but the core tool is built with Go, a fast language.",
-        "chinese": "它兼容 JavaScript，但核心工具是用 Go 这门快速语言构建的。"
+        "speaker": "Emma",
+        "english": "Then breathe out slowly through your mouth, as if you are blowing out a small candle.",
+        "chinese": "然后慢慢用嘴呼气，就像在吹灭一支小蜡烛。",
+        "start": 34.857,
+        "end": 42.998
       },
       {
-        "speaker": "Ben",
-        "english": "How fast is it compared to the old version in real life tasks for developers?",
-        "chinese": "和旧版相比，在实际开发任务中它有多快？"
+        "speaker": "Emma",
+        "english": "This helps your body relax. Your heart beats more slowly, and your mind feels much clearer.",
+        "chinese": "这会帮助身体放松，让心跳慢下来，头脑也变得更加清晰。",
+        "start": 43.42,
+        "end": 52.141
       },
       {
-        "speaker": "Mia",
-        "english": "They say it’s often ten times faster, so a ten‑second task now takes one second.",
-        "chinese": "他们说它通常快十倍，所以原本十秒的任务现在只需要一秒。"
+        "speaker": "Emma",
+        "english": "Next, do one small action that feels very easy and comfortable for you right now.",
+        "chinese": "接下来，做一个你觉得现在非常容易且舒适的小动作。",
+        "start": 52.563,
+        "end": 60.343
       },
       {
-        "speaker": "Ben",
-        "english": "Ten times! That’s like a rocket compared to a bike, especially in speed and power.",
-        "chinese": "十倍！这就像火箭比自行车，尤其在速度和力量上。"
+        "speaker": "Emma",
+        "english": "It could be standing up, stretching your arms, or simply smiling at yourself in the mirror.",
+        "chinese": "可以是站起来、伸展手臂，或者只是对着镜子里的自己微笑。",
+        "start": 60.765,
+        "end": 68.906
       },
       {
-        "speaker": "Mia",
-        "english": "Exactly. Large projects with many files will load and edit much quicker than before now.",
-        "chinese": "没错。拥有很多文件的大型项目现在加载和编辑会比以前快很多。"
+        "speaker": "Emma",
+        "english": "That little movement tells your brain that you are safe, strong, and ready to move forward.",
+        "chinese": "这个小动作会告诉大脑：你很安全、很坚强，也准备好继续向前。",
+        "start": 69.328,
+        "end": 77.997
       },
       {
-        "speaker": "Ben",
-        "english": "Does that help with everyday coding, like fixing small bugs in my editor daily today?",
-        "chinese": "这对日常编码有帮助吗，比如每天在我的编辑器里修复小 bug？"
+        "speaker": "Emma",
+        "english": "You can try this before a test, a game, or any moment when you feel really worried.",
+        "chinese": "你可以在考试前、比赛前，或在任何你感到真正担心的时刻尝试这个方法。",
+        "start": 78.419,
+        "end": 86.148
       },
       {
-        "speaker": "Mia",
-        "english": "Yes, the new compiler and language service make editors respond faster and show errors quickly.",
-        "chinese": "是的，新的编译器和语言服务让编辑器的响应更快，错误显示也更迅速。"
+        "speaker": "Emma",
+        "english": "With practice, this will soon start to feel more natural and easier.",
+        "chinese": "多练习几次，这个方法很快就会变得更自然、更容易。",
+        "start": 86.569,
+        "end": 92.817
       },
       {
-        "speaker": "Ben",
-        "english": "So I can type code and see errors almost instantly as I write new code?",
-        "chinese": "所以我可以在写新代码时几乎立刻看到错误吗？"
+        "speaker": "Emma",
+        "english": "Remember, feeling nervous does not mean something is wrong with you or that you are weak at all.",
+        "chinese": "记住，感到紧张并不意味着你有什么问题，也绝不代表你软弱。",
+        "start": 93.239,
+        "end": 101.908
       },
       {
-        "speaker": "Mia",
-        "english": "In many cases, yes. The goal is smoother editing and fewer wait times for you.",
-        "chinese": "在很多情况下是的。目标是让你编辑更流畅，等待时间更少。"
+        "speaker": "Emma",
+        "english": "Slow breathing and one small action together can really make a big difference in how you feel.",
+        "chinese": "慢呼吸和一个小动作结合在一起，真的可以对你的感觉产生很大的不同。",
+        "start": 102.33,
+        "end": 111.167
       },
       {
-        "speaker": "Ben",
-        "english": "Will it work with my favorite code editor, like VS Code, or other common editors today?",
-        "chinese": "它现在能在我喜欢的代码编辑器上使用吗，比如 VS Code，或者其他常用编辑器？"
-      },
-      {
-        "speaker": "Mia",
-        "english": "Most editors that support TypeScript should work, but you might need an update to plugin.",
-        "chinese": "大多数支持 TypeScript 的编辑器都能用，但你可能需要更新一下插件。"
-      },
-      {
-        "speaker": "Ben",
-        "english": "Sounds exciting! I’ll download TypeScript 7 and try it today in my project right away.",
-        "chinese": "听起来太棒了！我马上下载 TypeScript 7，今天就在我的项目里试试。"
+        "speaker": "Emma",
+        "english": "You are brave and capable, and you can handle it one breath at a time.",
+        "chinese": "你很勇敢，也很有能力，可以一次呼吸、一步一步地面对它。",
+        "start": 111.588,
+        "end": 120.0
       }
     ],
-    "source_title": "Announcing TypeScript 7.0",
-    "source_date": "2026-07-08",
-    "source_url": "https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/",
-    "level": "CEFR A1 / US elementary grades 3-5",
-    "english_word_count": 247
+    "source_title": "Original A2 daily English monologue",
+    "source_date": "2026-07-15",
+    "source_url": "05-when-you-feel-nervous/transcript.md",
+    "level": "CEFR A2 / US elementary grades 4-6",
+    "english_word_count": 220
   },
   {
-    "id": "06-new-web-ui-2026",
+    "id": "06-a-walk-after-dinner",
     "number": "06",
-    "audio": "06-new-web-ui-2026/audio.mp3",
-    "product": "Chrome",
-    "logo": "assets/chrome.svg",
-    "accent": "#18804b",
-    "tint": "#e4f4ea",
-    "title": "New Web UI Tools at Google I/O 2026",
+    "audio": "06-a-walk-after-dinner/audio.mp3",
+    "product": "HEALTH",
+    "logo": "assets/changelife.svg",
+    "accent": "#8a4f2d",
+    "tint": "#f7ece5",
+    "title": "A Walk After Dinner",
     "dialogue": [
       {
-        "speaker": "Mia",
-        "english": "Hey Ben, did you hear about the new web tools Google showed at I/O 2026?",
-        "chinese": "嘿 Ben，你听说谷歌在 I/O 2026 上展示的新网页工具了吗？"
+        "speaker": "Emma",
+        "english": "After dinner, I like to step outside and take a short walk around the neighborhood while the sky turns golden and the stars appear.",
+        "chinese": "晚饭后，我喜欢走出去，在附近散一会儿步，此时天空变成金色，星星出现。",
+        "start": 0.0,
+        "end": 11.099
       },
       {
-        "speaker": "Ben",
-        "english": "Yes, Chrome presented a whole set of them, all meant for better web interfaces today.",
-        "chinese": "是的，Chrome 展示了一整套工具，都是为了让网页界面更好。"
+        "speaker": "Emma",
+        "english": "The air is cooler, the street lights are on, and everything feels calm as the day ends.",
+        "chinese": "空气变得凉爽，路灯亮起，一切在白昼结束时显得宁静。",
+        "start": 11.466,
+        "end": 19.768
       },
       {
-        "speaker": "Mia",
-        "english": "One cool thing is CSS custom functions, like adding your own shortcuts to a recipe.",
-        "chinese": "一个酷的功能是 CSS 自定义函数，就像在食谱里加入自己的小窍门。"
+        "speaker": "Emma",
+        "english": "I start slowly, letting my feet find an easy rhythm as I feel the gentle breeze.",
+        "chinese": "我慢慢起步，让双脚找到轻松的节奏，同时感受柔和的微风。",
+        "start": 20.135,
+        "end": 28.246
       },
       {
-        "speaker": "Ben",
-        "english": "View transitions let pages slide like photos in a photo album when you change views.",
-        "chinese": "视图切换让页面在切换视图时像相册里的照片一样滑动。"
+        "speaker": "Emma",
+        "english": "Sometimes I listen to soft music, sometimes I just hear the night sounds like crickets chirping.",
+        "chinese": "有时我听轻柔的音乐，有时我只听夜晚的声音，像蟋蟀在鸣叫。",
+        "start": 28.613,
+        "end": 36.218
       },
       {
-        "speaker": "Mia",
-        "english": "There are also scroll‑driven animations that move things as you scroll down a page smoothly.",
-        "chinese": "还有滚动驱动的动画，让你在页面下滑时东西平滑地移动。"
+        "speaker": "Emma",
+        "english": "A gentle walk helps my body digest the food I just ate more comfortably.",
+        "chinese": "轻松的散步帮助我的身体更舒适地消化刚吃的食物。",
+        "start": 36.586,
+        "end": 42.225
       },
       {
-        "speaker": "Ben",
-        "english": "Scroll‑triggered animations pop up when you reach a spot, like surprise on treasure map, sudden.",
-        "chinese": "滚动触发的动画在你到达某个位置时弹出，就像宝藏图上的惊喜，突然出现。"
+        "speaker": "Emma",
+        "english": "It also gives my mind a chance to settle after a busy day and let go of my worries.",
+        "chinese": "它也让我的思绪在忙碌的一天后平静下来，放下心里的烦恼。",
+        "start": 42.593,
+        "end": 49.423
       },
       {
-        "speaker": "Mia",
-        "english": "HTML inside Canvas lets you draw a picture and write text on it directly now.",
-        "chinese": "Canvas 内的 HTML 让你可以直接在画好的图上写文字。"
+        "speaker": "Emma",
+        "english": "I notice how my breath becomes slower and my thoughts grow clearer as I walk.",
+        "chinese": "我注意到，随着散步，我的呼吸变慢，思绪也变得更清晰。",
+        "start": 49.79,
+        "end": 56.115
       },
       {
-        "speaker": "Ben",
-        "english": "And text‑fit makes text shrink or grow so it always fits inside its box perfectly.",
-        "chinese": "text-fit 能让文字缩小或放大，使其始终恰好适应它的盒子。"
+        "speaker": "Emma",
+        "english": "If I feel tense, I focus on the rhythm of my steps and let that feeling go.",
+        "chinese": "如果我感到紧张，就把注意力放在脚步的节奏上，让那种感觉慢慢离开。",
+        "start": 56.482,
+        "end": 63.537
       },
       {
-        "speaker": "Mia",
-        "english": "All these tools are meant to make interfaces clearer, smoother, and more flexible for users.",
-        "chinese": "所有这些工具都是为了用户的界面更清晰、更流畅、更灵活。"
+        "speaker": "Emma",
+        "english": "When I return home, I feel lighter, both in body and in spirit, ready for a restful night.",
+        "chinese": "回到家时，我感到身心都轻盈，准备好迎接宁静的夜晚。",
+        "start": 63.905,
+        "end": 73.442
       },
       {
-        "speaker": "Ben",
-        "english": "Developers can try them now in Chrome, and they work with the latest web standards.",
-        "chinese": "开发者现在可以在 Chrome 中试用它们，并且它们遵循最新的网页标准。"
+        "speaker": "Emma",
+        "english": "This small habit does not take much time. Ten or fifteen minutes fit easily into my evening.",
+        "chinese": "这个小习惯不需要太多时间，十到十五分钟就能轻松融入我的夜晚。",
+        "start": 73.809,
+        "end": 82.56
       },
       {
-        "speaker": "Mia",
-        "english": "I think designers will love the view transitions because they feel like a slide show.",
-        "chinese": "我觉得设计师会喜欢视图切换，因为它们感觉像幻灯片一样。"
+        "speaker": "Emma",
+        "english": "I have found that a short walk can turn a tired evening into a peaceful one by calming my thoughts.",
+        "chinese": "我发现短暂的散步可以通过平复思绪，把疲惫的夜晚变成宁静的夜晚。",
+        "start": 82.928,
+        "end": 92.824
       },
       {
-        "speaker": "Ben",
-        "english": "Scroll‑driven animations could make games and stories move as you scroll down the page quickly.",
-        "chinese": "滚动驱动的动画可以让游戏和故事在你快速下滑页面时动起来。"
+        "speaker": "Emma",
+        "english": "It reminds me that caring for myself can be as easy as stepping outside and enjoying simple moments.",
+        "chinese": "它提醒我，关爱自己可以像走出去享受简单的时刻一样容易。",
+        "start": 93.192,
+        "end": 104.145
       },
       {
-        "speaker": "Mia",
-        "english": "HTML inside Canvas is great for adding labels or buttons on top of drawings directly.",
-        "chinese": "Canvas 内的 HTML 很适合在绘图上直接添加标签或按钮。"
+        "speaker": "Emma",
+        "english": "I hope you will try a quiet walk after dinner soon and feel the calm it brings.",
+        "chinese": "我希望你很快尝试在晚饭后安静地散步，感受它带来的平静。",
+        "start": 104.512,
+        "end": 111.657
       },
       {
-        "speaker": "Ben",
-        "english": "Text‑fit will help keep buttons readable even when the screen size changes a lot easily.",
-        "chinese": "text-fit 能帮助按钮在屏幕尺寸变化很大时仍然保持易读。"
-      },
-      {
-        "speaker": "Mia",
-        "english": "Overall, these updates should make websites feel more alive and easier to use for everyone.",
-        "chinese": "总的来说，这些更新应该让网站更有活力，对每个人来说都更易用。"
-      },
-      {
-        "speaker": "Ben",
-        "english": "I’m excited to try them and see how they improve the web for us today.",
-        "chinese": "我很兴奋去尝试它们，看看它们今天如何改善我们的网络体验。"
+        "speaker": "Emma",
+        "english": "Remember, a few minutes of gentle movement can brighten your whole evening and lift your mood.",
+        "chinese": "记住，几分钟的轻柔活动可以点亮你整个夜晚，提升你的情绪。",
+        "start": 112.024,
+        "end": 120.0
       }
     ],
-    "source_title": "What's new in web UI at Google I/O 2026",
-    "source_date": "2026-07-01",
-    "source_url": "https://developer.chrome.com/blog/new-in-web-ui-io26",
-    "level": "CEFR A1 / US elementary grades 3-5",
-    "english_word_count": 247
+    "source_title": "Original A2 daily English monologue",
+    "source_date": "2026-07-15",
+    "source_url": "06-a-walk-after-dinner/transcript.md",
+    "level": "CEFR A2 / US elementary grades 4-6",
+    "english_word_count": 244
   },
   {
-    "id": "07-chrome-devtools-150",
+    "id": "07-a-break-from-your-phone",
     "number": "07",
-    "audio": "07-chrome-devtools-150/audio.mp3",
-    "product": "Chrome",
-    "logo": "assets/chrome.svg",
-    "accent": "#18804b",
-    "tint": "#e4f4ea",
-    "title": "Chrome 150 DevTools Update",
+    "audio": "07-a-break-from-your-phone/audio.mp3",
+    "product": "FOCUS",
+    "logo": "assets/changelife.svg",
+    "accent": "#6d55a5",
+    "tint": "#eeeafa",
+    "title": "A Break from Your Phone",
     "dialogue": [
       {
-        "speaker": "Mia",
-        "english": "Hey Ben, did you hear Chrome 150 came out today with new stuff for developers?",
-        "chinese": "嘿 Ben，你听说 Chrome 150 今天发布了吗？它为开发者带来了新东西。"
+        "speaker": "Emma",
+        "english": "I used to check my phone every few minutes, even when I was walking to school.",
+        "chinese": "我以前每隔几分钟就会查看手机，甚至在走去学校的路上。",
+        "start": 0.0,
+        "end": 5.853
       },
       {
-        "speaker": "Ben",
-        "english": "Yeah, I saw a post about it. What’s new? It sounds exciting for all of us. It will help us a lot.",
-        "chinese": "是的，我看到了一篇帖子。它有什么新功能？听起来对我们所有人都很令人兴奋。它会帮助我们很多。"
+        "speaker": "Emma",
+        "english": "One sunny morning, I decided to leave my phone at home and step outside into the quiet.",
+        "chinese": "一个阳光明媚的早晨，我决定把手机留在家里，走出去，融入宁静的氛围。",
+        "start": 6.244,
+        "end": 14.82
       },
       {
-        "speaker": "Mia",
-        "english": "There’s better memory debugging for coding agents, like a detective finding hidden leaks in your code.",
-        "chinese": "有更好的内存调试功能，针对编程代理，就像侦探找出代码里的隐藏漏洞。"
+        "speaker": "Emma",
+        "english": "At first, I felt strange, like something was missing from my hand, and my pockets seemed empty.",
+        "chinese": "起初，我感觉很奇怪，好像手里少了点什么，口袋也空空的。",
+        "start": 15.211,
+        "end": 24.181
       },
       {
-        "speaker": "Ben",
-        "english": "That sounds useful. What else is in the update for developers like us today? We should test them.",
-        "chinese": "听起来很有用。对我们这样的开发者，今天的更新还有什么？我们应该测试它们。"
+        "speaker": "Emma",
+        "english": "But then I noticed the warm sunlight dancing on the leaves, casting golden patterns on the ground.",
+        "chinese": "但随后我注意到温暖的阳光在树叶上跳动，在地上投下金色的光斑。",
+        "start": 24.572,
+        "end": 33.877
       },
       {
-        "speaker": "Mia",
-        "english": "They added AI help widgets, kind of like smart helpers that give you design tips.",
-        "chinese": "他们添加了 AI 帮助小部件，有点像能给你设计建议的智能助手。"
+        "speaker": "Emma",
+        "english": "A soft breeze brushed my cheeks, and I heard birds singing nearby, filling the air with music.",
+        "chinese": "一阵柔和的微风拂过我的脸颊，我听到附近鸟儿在歌唱，让空气充满音乐。",
+        "start": 34.268,
+        "end": 42.892
       },
       {
-        "speaker": "Ben",
-        "english": "Oh, I love that! Does it work for editing CSS in the Styles panel right away?",
-        "chinese": "哦，我好喜欢！它可以马上在样式面板里编辑 CSS 吗？"
+        "speaker": "Emma",
+        "english": "For a moment, the world felt bigger and quieter than my screen, and my thoughts seemed clearer.",
+        "chinese": "有一瞬间，世界比我手机屏幕显得更大、更安静，我的思绪也似乎更清晰。",
+        "start": 43.283,
+        "end": 51.763
       },
       {
-        "speaker": "Mia",
-        "english": "Yes, you can edit container rules and custom functions there, like fixing a box’s size.",
-        "chinese": "是的，你可以在这里编辑容器规则和自定义函数，就像调节盒子的大小。"
+        "speaker": "Emma",
+        "english": "I saw a neighbor wave at me, and I smiled back without rushing, feeling a connection grow.",
+        "chinese": "我看到邻居向我挥手，我也微笑着回应，没有匆忙，感到一种联系在慢慢生长。",
+        "start": 52.154,
+        "end": 60.145
       },
       {
-        "speaker": "Ben",
-        "english": "Anything about making code maps clearer, like a guide that shows each piece of code for me?",
-        "chinese": "有没有让代码地图更清晰的功能？就像给我展示每段代码的指南？"
+        "speaker": "Emma",
+        "english": "My breathing slowed, and I felt a calm spreading through me, easing any lingering tension.",
+        "chinese": "我的呼吸慢了下来，我感到一股平静在全身蔓延，缓解了持续的紧张。",
+        "start": 60.536,
+        "end": 69.064
       },
       {
-        "speaker": "Mia",
-        "english": "Yes, source maps are improved, so debugging feels like following a clear trail for you.",
-        "chinese": "是的，源代码地图改进了，所以调试对你来说就像跟着清晰的路径走。"
+        "speaker": "Emma",
+        "english": "Small details, like a child's laugh or a flower’s color, became bright and noticeable.",
+        "chinese": "一些小细节，比如孩子的笑声或花的颜色，变得明亮而容易注意到。",
+        "start": 69.455,
+        "end": 77.935
       },
       {
-        "speaker": "Ben",
-        "english": "I also heard security got a boost. What does that mean for my sites, for us?",
-        "chinese": "我还听说安全性提升了。这对我的网站、对我们意味着什么？"
+        "speaker": "Emma",
+        "english": "When I checked my phone later, I realized I hadn’t missed much, and felt surprised by that.",
+        "chinese": "后来我查看手机时，发现自己其实没有错过太多，对此感到惊讶。",
+        "start": 78.326,
+        "end": 86.711
       },
       {
-        "speaker": "Mia",
-        "english": "It means Chrome protects your code from bad tricks, like a guard at a gate.",
-        "chinese": "意思是 Chrome 保护你的代码免受恶意手段，就像门口的保安。"
+        "speaker": "Emma",
+        "english": "That short pause reminded me how rich everyday moments can be, and how we overlook them.",
+        "chinese": "那短暂的停顿让我意识到，日常时刻其实很丰富，而我们常常忽视它们。",
+        "start": 87.102,
+        "end": 94.699
       },
       {
-        "speaker": "Ben",
-        "english": "And what about screen readers? Are they supported right now in this version?",
-        "chinese": "那屏幕阅读器呢？在这个版本里它们现在能被支持吗？"
+        "speaker": "Emma",
+        "english": "I now try to put my phone away for a few minutes a day, during a walk or snack break.",
+        "chinese": "现在我每天会尝试把手机放下几分钟，比如在散步或吃点心的时候。",
+        "start": 95.089,
+        "end": 102.495
       },
       {
-        "speaker": "Mia",
-        "english": "Yes, screen‑reader support is better, so blind users can hear the page better now in Chrome.",
-        "chinese": "是的，屏幕阅读器的支持更好了，所以盲人用户现在在 Chrome 里能更好地听到页面内容。"
+        "speaker": "Emma",
+        "english": "You can do the same during a walk, a coffee break, or lunch, and notice how it feels.",
+        "chinese": "你也可以在散步、喝咖啡或吃午饭时这样做，留意自己的感受。",
+        "start": 102.886,
+        "end": 111.175
       },
       {
-        "speaker": "Ben",
-        "english": "Wow, this update looks solid. Should I try it today to see the new tools on my laptop?",
-        "chinese": "哇，这个更新看起来很扎实。我今天应该在笔记本上试试新工具吗？"
-      },
-      {
-        "speaker": "Mia",
-        "english": "Definitely! Install Chrome 150 and open DevTools to test the new features for yourself right away.",
-        "chinese": "当然！安装 Chrome 150 并打开开发者工具，马上自己试试新功能。"
-      },
-      {
-        "speaker": "Ben",
-        "english": "Thanks, Mia! I’ll grab it now and let you know how it goes later soon.",
-        "chinese": "谢谢 Mia！我马上下载它，稍后会告诉你进展如何。"
+        "speaker": "Emma",
+        "english": "Give it a try today and feel how a tiny pause can bring a lot of joy and brighten your day.",
+        "chinese": "今天就试试看，感受短暂的停顿如何带来许多快乐，点亮你的一天。",
+        "start": 111.566,
+        "end": 119.999
       }
     ],
-    "source_title": "What's new in DevTools, Chrome 150",
-    "source_date": "2026-06-30",
-    "source_url": "https://developer.chrome.com/blog/new-in-devtools-150",
-    "level": "CEFR A1 / US elementary grades 3-5",
-    "english_word_count": 263
+    "source_title": "Original A2 daily English monologue",
+    "source_date": "2026-07-15",
+    "source_url": "07-a-break-from-your-phone/transcript.md",
+    "level": "CEFR A2 / US elementary grades 4-6",
+    "english_word_count": 241
   },
   {
-    "id": "08-chrome-150",
+    "id": "08-making-a-new-friend",
     "number": "08",
-    "audio": "08-chrome-150/audio.mp3",
-    "product": "Chrome",
-    "logo": "assets/chrome.svg",
-    "accent": "#b55418",
-    "tint": "#faecdf",
-    "title": "New in Chrome 150",
+    "audio": "08-making-a-new-friend/audio.mp3",
+    "product": "FRIENDSHIP",
+    "logo": "assets/changelife.svg",
+    "accent": "#b6463a",
+    "tint": "#f9e8e6",
+    "title": "Making a New Friend",
     "dialogue": [
       {
-        "speaker": "Mia",
-        "english": "Hey Ben, did you see that Chrome 150 landed today? It’s a fresh update for the web.",
-        "chinese": "嘿 Ben，你看到 Chrome 150 今天上线了吗？这是网页的一次新鲜更新。"
+        "speaker": "Emma",
+        "english": "I used to feel shy when I met new people, but I learned that a smile can change everything right away.",
+        "chinese": "我以前见到陌生人时会害羞，但我现在明白，一个微笑就能立刻改变一切。",
+        "start": 0.0,
+        "end": 9.536
       },
       {
-        "speaker": "Ben",
-        "english": "Yeah, I caught the news this morning. Looks like a nice set of new CSS tricks.",
-        "chinese": "是啊，我今天早上看到新闻了。看起来是一套不错的新 CSS 技巧。"
+        "speaker": "Emma",
+        "english": "A smile costs nothing, yet it tells someone, \"You are welcome here,\" and opens a door.",
+        "chinese": "微笑不花一分钱，却能告诉别人“这里欢迎你”，也能打开交流的大门。",
+        "start": 9.924,
+        "end": 18.831
       },
       {
-        "speaker": "Mia",
-        "english": "One of the highlights is text‑fit. It can shrink or grow text so it always fills its box, like a balloon that expands to fill a jar.",
-        "chinese": "亮点之一是 text‑fit。它可以让文字收缩或变大，始终填满盒子，就像气球膨胀填满罐子一样。"
+        "speaker": "Emma",
+        "english": "Then I say a simple hello, just one word, and it feels like a warm, bright invitation.",
+        "chinese": "然后我说一句简单的“你好”，只有一个词，却像一份温暖而明亮的邀请。",
+        "start": 19.22,
+        "end": 28.269
       },
       {
-        "speaker": "Ben",
-        "english": "That’s super handy for labels that used to get cut off. I always hated tiny text.",
-        "chinese": "这对于以前经常被截断的标签非常方便。我一直讨厌小文字。"
+        "speaker": "Emma",
+        "english": "After that, I ask a sincere question, like, \"What do you like to do for fun?\"",
+        "chinese": "之后，我会真诚地问一个问题，比如“你平时喜欢做什么？”",
+        "start": 28.658,
+        "end": 35.964
       },
       {
-        "speaker": "Mia",
-        "english": "There’s also focusgroup. It helps arrow keys jump between groups of controls, kind of like a TV remote moving from button to button.",
-        "chinese": "还有 focusgroup。它帮助方向键在控件组之间跳转，有点像电视遥控器在按钮之间切换。"
+        "speaker": "Emma",
+        "english": "That question shows I truly care and want to know more about that person.",
+        "chinese": "这个问题表明我真的在乎，并且想更多地了解那个人。",
+        "start": 36.352,
+        "end": 43.077
       },
       {
-        "speaker": "Ben",
-        "english": "So users can navigate faster without extra clicks. That should make forms easier.",
-        "chinese": "这样用户可以更快地导航，而不需要多余的点击。这应该让表单更易用。"
+        "speaker": "Emma",
+        "english": "I try this at school, in the library, or even at the playground after class.",
+        "chinese": "我会在学校、图书馆，甚至下课后的操场上这样和别人打招呼。",
+        "start": 43.465,
+        "end": 50.629
       },
       {
-        "speaker": "Mia",
-        "english": "Right! And they added background‑clip border‑area. It lets you put a gradient on a border, like painting a rainbow around a shape.",
-        "chinese": "对！而且他们添加了 background‑clip border‑area。它可以让你在边框上放渐变，就像在形状周围画彩虹。"
+        "speaker": "Emma",
+        "english": "One day I saw a boy sitting alone, quietly reading a comic, and I smiled at him.",
+        "chinese": "有一天，我看到一个男孩独自坐着，安静地看漫画，于是我对他笑了笑。",
+        "start": 51.017,
+        "end": 60.114
       },
       {
-        "speaker": "Ben",
-        "english": "I love colorful borders. It makes designs pop and feel more alive.",
-        "chinese": "我喜欢彩色边框。它让设计更醒目，也更有活力。"
+        "speaker": "Emma",
+        "english": "He looked up. I said hello and asked, \"What is your favorite comic right now?\"",
+        "chinese": "他抬起头，我说了声“你好”，然后问他现在最喜欢哪本漫画。",
+        "start": 60.502,
+        "end": 68.686
       },
       {
-        "speaker": "Mia",
-        "english": "These new features work in Chrome right now, and other browsers may add them later.",
-        "chinese": "这些新功能现在在 Chrome 中已经可以使用，其他浏览器可能以后也会加入。"
+        "speaker": "Emma",
+        "english": "His face lit up, he smiled back, and we started talking about heroes and adventures.",
+        "chinese": "他的脸上露出光彩，笑着回应，我们于是聊起了英雄和冒险的故事。",
+        "start": 69.075,
+        "end": 77.353
       },
       {
-        "speaker": "Ben",
-        "english": "I’m excited to try them out in my next project. I’ll start with a simple gradient border.",
-        "chinese": "我很兴奋想在下一个项目里试试。我会先从一个简单的渐变边框开始。"
+        "speaker": "Emma",
+        "english": "Soon we were sharing snacks, laughing at jokes, and making plans to play together.",
+        "chinese": "很快我们就一起分享零食，笑谈笑话，还计划一起玩耍。",
+        "start": 77.741,
+        "end": 85.344
       },
       {
-        "speaker": "Mia",
-        "english": "Let me know how it goes. I’m curious to see the text‑fit in action too.",
-        "chinese": "告诉我进展如何。我也很想看看 text‑fit 的实际效果。"
+        "speaker": "Emma",
+        "english": "Having a new friend helps me feel less lonely, more cheerful, and more confident each day.",
+        "chinese": "拥有一位新朋友，让我每天都不再那么孤单，心情更开朗，也更有信心。",
+        "start": 85.732,
+        "end": 94.106
       },
       {
-        "speaker": "Ben",
-        "english": "Sure thing! It feels like a gift for developers, a little present from the Chrome team.",
-        "chinese": "没问题！这感觉像是给开发者的一份礼物，来自 Chrome 团队的小惊喜。"
+        "speaker": "Emma",
+        "english": "Sometimes it is hard, and people may not answer, but I keep trying.",
+        "chinese": "有时候会遇到困难，别人可能不回应，但我会继续尝试。",
+        "start": 94.494,
+        "end": 101.361
       },
       {
-        "speaker": "Mia",
-        "english": "Absolutely. I’ll keep an eye on future releases for more cool CSS updates.",
-        "chinese": "当然。我会关注未来的版本，期待更多酷炫的 CSS 更新。"
+        "speaker": "Emma",
+        "english": "I start with one smile, one hello, one kind question, and I see the world grow friendlier.",
+        "chinese": "我从一个微笑、一句你好、一个友善的问题开始，看到世界变得更有爱。",
+        "start": 101.75,
+        "end": 111.772
       },
       {
-        "speaker": "Ben",
-        "english": "Agreed. Thanks for sharing the news, Mia. This really helps.",
-        "chinese": "同意。谢谢你分享这个消息，Mia。这真的很有帮助。"
-      },
-      {
-        "speaker": "Mia",
-        "english": "Anytime, Ben. I’m happy to chat about tech stuff anytime.",
-        "chinese": "随时都行，Ben。我很乐意随时聊技术的东西。"
-      },
-      {
-        "speaker": "Ben",
-        "english": "Same here. Talk soon and have fun experimenting!",
-        "chinese": "我也是。回头聊，实验玩得开心！"
+        "speaker": "Emma",
+        "english": "Remember, every smile you give can become the first step toward a wonderful friendship.",
+        "chinese": "记住，你送出的每一个微笑，都可能成为一段美好友谊的第一步。",
+        "start": 112.16,
+        "end": 120.0
       }
     ],
-    "source_title": "New in Chrome 150",
-    "source_date": "2026-06-30",
-    "source_url": "https://developer.chrome.com/blog/new-in-chrome-150",
-    "level": "CEFR A1 / US elementary grades 3-5",
-    "english_word_count": 262
+    "source_title": "Original A2 daily English monologue",
+    "source_date": "2026-07-15",
+    "source_url": "08-making-a-new-friend/transcript.md",
+    "level": "CEFR A2 / US elementary grades 4-6",
+    "english_word_count": 220
   },
   {
-    "id": "09-usermedia-element",
+    "id": "09-a-peaceful-night",
     "number": "09",
-    "audio": "09-usermedia-element/audio.mp3",
-    "product": "Chrome",
-    "logo": "assets/chrome.svg",
-    "accent": "#18804b",
-    "tint": "#e4f4ea",
-    "title": "Chrome 151 Simplifies Camera and Mic Access",
+    "audio": "09-a-peaceful-night/audio.mp3",
+    "product": "REST",
+    "logo": "assets/changelife.svg",
+    "accent": "#3e6780",
+    "tint": "#e6f0f4",
+    "title": "A Peaceful Night",
     "dialogue": [
       {
-        "speaker": "Mia",
-        "english": "Hey Ben, have you heard the latest news about Chrome's new update for web developers?",
-        "chinese": "嘿 Ben，你听说了 Chrome 的最新更新吗？这是为网页开发者准备的。"
+        "speaker": "Emma",
+        "english": "When the day is over, I give my mind a gentle sign that it is time to rest at home.",
+        "chinese": "一天结束后，我会给自己的大脑一个温柔的信号：回到家，该休息了。",
+        "start": 0.0,
+        "end": 8.784
       },
       {
-        "speaker": "Ben",
-        "english": "No, I haven't. What did they add this time? Can you tell me more?",
-        "chinese": "没有，我还没听说。这次他们加了什么？能告诉我更多吗？"
+        "speaker": "Emma",
+        "english": "First, I put my phone away and make the room a little darker, softer, and quieter.",
+        "chinese": "首先，我把手机放到一旁，让房间变得暗一点、柔和一点，也安静一点。",
+        "start": 9.182,
+        "end": 18.611
       },
       {
-        "speaker": "Mia",
-        "english": "Chrome 151 introduced a brand‑new HTML element named usermedia for capturing video and audio.",
-        "chinese": "Chrome 151 引入了一个全新的 HTML 元素，名为 usermedia，用于捕获视频和音频。"
+        "speaker": "Emma",
+        "english": "The soft light helps my eyes relax, and the quiet tells my body that the busy day is ending.",
+        "chinese": "柔和的灯光让眼睛放松，安静的环境也告诉身体：忙碌的一天快结束了。",
+        "start": 19.009,
+        "end": 27.89
       },
       {
-        "speaker": "Ben",
-        "english": "That sounds handy. How does it actually work? Does it replace the old way?",
-        "chinese": "听起来很方便。它到底是怎么工作的？它会取代以前的方式吗？"
+        "speaker": "Emma",
+        "english": "I wash my face, brush my teeth, and change into comfortable clothes without trying to hurry.",
+        "chinese": "我洗脸、刷牙，再换上舒服的衣服，整个过程都不让自己着急。",
+        "start": 28.288,
+        "end": 37.376
       },
       {
-        "speaker": "Mia",
-        "english": "The browser shows a special element first, like a clickable icon, and then asks permission for your camera and mic.",
-        "chinese": "浏览器首先显示一个特殊的元素，像一个可点击的图标，然后请求使用你的摄像头和麦克风的权限。"
+        "speaker": "Emma",
+        "english": "Then I sit for a few quiet minutes with a simple book or some calm music.",
+        "chinese": "然后，我会安静地坐几分钟，看看简单的书，或者听听舒缓的音乐。",
+        "start": 37.775,
+        "end": 45.816
       },
       {
-        "speaker": "Ben",
-        "english": "So the user clicks that icon before the prompt appears? That seems simple enough.",
-        "chinese": "所以用户在提示出现之前先点击那个图标？这看起来挺简单的。"
+        "speaker": "Emma",
+        "english": "I do not choose anything exciting because I want my thoughts to slow down before bed.",
+        "chinese": "我不会选择太刺激的内容，因为我希望睡前的思绪能慢慢平静下来。",
+        "start": 46.215,
+        "end": 53.709
       },
       {
-        "speaker": "Mia",
-        "english": "Exactly. Because the browser controls the element, the code needed is much smaller for developers.",
-        "chinese": "没错。因为浏览器控制这个元素，开发者需要的代码量大大减少了。"
+        "speaker": "Emma",
+        "english": "If a worry comes to mind, I write it on a small piece of paper for tomorrow.",
+        "chinese": "如果想起一件担心的事，我就把它写在小纸条上，留到明天再处理。",
+        "start": 54.107,
+        "end": 60.859
       },
       {
-        "speaker": "Ben",
-        "english": "Does that mean less JavaScript setup? Will it save time when building apps?",
-        "chinese": "这意味着更少的 JavaScript 设置吗？它在开发应用时会节省时间吗？"
+        "speaker": "Emma",
+        "english": "This simple action lets me stop carrying that worry around in my head all night.",
+        "chinese": "这个简单的动作，让我不用整晚都把那件担心的事装在脑子里。",
+        "start": 61.258,
+        "end": 69.348
       },
       {
-        "speaker": "Mia",
-        "english": "Yes, it reduces the amount of JavaScript you have to write, like skipping steps in a recipe.",
-        "chinese": "是的，它减少了需要写的 JavaScript 代码量，就像在食谱里省略一些步骤。"
+        "speaker": "Emma",
+        "english": "Next, I take a slow breath in and an even slower breath out through my mouth.",
+        "chinese": "接着，我慢慢吸气，再用嘴更加缓慢地呼气。",
+        "start": 69.746,
+        "end": 76.949
       },
       {
-        "speaker": "Ben",
-        "english": "Can it help if a user denies permission? Will the page guide them to try again?",
-        "chinese": "如果用户拒绝权限，它能帮助吗？页面会引导他们重新尝试吗？"
+        "speaker": "Emma",
+        "english": "With each breath, my shoulders feel softer, and my whole body becomes a little heavier.",
+        "chinese": "每呼吸一次，我的肩膀就更放松一些，整个身体也变得更加沉静。",
+        "start": 77.347,
+        "end": 84.695
       },
       {
-        "speaker": "Mia",
-        "english": "Sure, if someone says no, the page can show a helpful message and let them retry.",
-        "chinese": "当然可以，如果有人说不行，页面可以显示一条有用的提示，并让他们重试。"
+        "speaker": "Emma",
+        "english": "I think about one good thing from the day, even if it was something very small.",
+        "chinese": "我会想想今天发生的一件好事，哪怕那只是一件很小的事。",
+        "start": 85.093,
+        "end": 91.991
       },
       {
-        "speaker": "Ben",
-        "english": "That recovery feature sounds really useful. Will it work in all browsers?",
-        "chinese": "这个恢复功能听起来真的很有用。它在所有浏览器里都能用吗？"
+        "speaker": "Emma",
+        "english": "Maybe I enjoyed a warm meal, heard a kind word, or saw a beautiful evening sky.",
+        "chinese": "也许我享用了一顿热饭，听到一句暖心的话，或者看见了美丽的晚霞。",
+        "start": 92.39,
+        "end": 101.076
       },
       {
-        "speaker": "Mia",
-        "english": "It works in Chrome 151, but other browsers may need a fallback solution to be safe.",
-        "chinese": "它在 Chrome 151 中有效，但其他浏览器可能需要一个备用方案以确保安全。"
+        "speaker": "Emma",
+        "english": "These quiet thoughts help me feel thankful, safe, and ready to close my eyes and sleep.",
+        "chinese": "这些安静的想法让我心怀感激、感到安心，也准备好闭上眼睛入睡。",
+        "start": 101.474,
+        "end": 111.207
       },
       {
-        "speaker": "Ben",
-        "english": "So developers should still plan for older browsers? Just in case the new tag isn’t supported.",
-        "chinese": "所以开发者仍然需要为旧版浏览器做计划？以防新标签不被支持。"
-      },
-      {
-        "speaker": "Mia",
-        "english": "Exactly. With usermedia, you get easier camera and mic access, but you must have a backup.",
-        "chinese": "没错。使用 usermedia 可以更方便地访问摄像头和麦克风，但你必须准备一个备份方案。"
-      },
-      {
-        "speaker": "Ben",
-        "english": "Thanks for explaining, Mia. I’ll try the new element in my next project and see how it feels.",
-        "chinese": "谢谢你解释，Mia。我会在下一个项目里试试这个新元素，看看效果如何。"
+        "speaker": "Emma",
+        "english": "A peaceful night begins with a few gentle choices, and everything else can wait until tomorrow morning.",
+        "chinese": "一个宁静的夜晚始于几个温柔的选择，其他事情都可以等到明天早晨。",
+        "start": 111.605,
+        "end": 120.0
       }
     ],
-    "source_title": "Introducing the <usermedia> HTML element",
-    "source_date": "2026-06-29",
-    "source_url": "https://developer.chrome.com/blog/usermedia-html-element",
-    "level": "CEFR A1 / US elementary grades 3-5",
-    "english_word_count": 249
+    "source_title": "Original A2 daily English monologue",
+    "source_date": "2026-07-15",
+    "source_url": "09-a-peaceful-night/transcript.md",
+    "level": "CEFR A2 / US elementary grades 4-6",
+    "english_word_count": 231
   },
   {
-    "id": "10-selective-clipboard-read",
+    "id": "10-believe-in-yourself",
     "number": "10",
-    "audio": "10-selective-clipboard-read/audio.mp3",
-    "product": "Chrome",
-    "logo": "assets/chrome.svg",
-    "accent": "#8b3b79",
-    "tint": "#f4e7f1",
-    "title": "Smarter Clipboard Reading",
+    "audio": "10-believe-in-yourself/audio.mp3",
+    "product": "COURAGE",
+    "logo": "assets/changelife.svg",
+    "accent": "#936c12",
+    "tint": "#faf1d8",
+    "title": "Believe in Yourself",
     "dialogue": [
       {
-        "speaker": "Mia",
-        "english": "Hey Ben! I just read that Chrome and Edge have a new clipboard feature starting in version 149.",
-        "chinese": "嘿 Ben！我刚读到 Chrome 和 Edge 在 149 版本中推出了一个新的剪贴板功能。"
+        "speaker": "Emma",
+        "english": "Hi, I’m Emma. Today I want to talk about something that helps us every day.",
+        "chinese": "大家好，我是艾玛。今天我想和大家聊聊一件每天都会帮助我们的事。",
+        "start": 0.0,
+        "end": 7.97
       },
       {
-        "speaker": "Ben",
-        "english": "Oh, that sounds interesting! What does this new feature actually do for us?",
-        "chinese": "哦，听起来很有趣！这个新功能对我们有什么实际作用？"
+        "speaker": "Emma",
+        "english": "It’s called confidence, the feeling that we can try new things even when they seem hard.",
+        "chinese": "这叫自信，一种即使事情看起来困难，我们仍敢于尝试的感觉。",
+        "start": 8.377,
+        "end": 18.982
       },
       {
-        "speaker": "Mia",
-        "english": "It’s part of the Async Clipboard API, which is like a smart clipboard that only grabs what your app asks for.",
-        "chinese": "它是 Async Clipboard API 的一部分，就像一个只会获取你所需内容的智能剪贴板。"
+        "speaker": "Emma",
+        "english": "Confidence doesn’t come from being perfect; it grows when we keep trying and never give up.",
+        "chinese": "自信不是来自完美，而是来自我们不断尝试、永不放弃的过程中慢慢增长的。",
+        "start": 19.389,
+        "end": 27.048
       },
       {
-        "speaker": "Ben",
-        "english": "So, does it still check everything on the clipboard before it knows what’s there?",
-        "chinese": "那么，它在知道剪贴板有什么之前，还会检查所有内容吗？"
+        "speaker": "Emma",
+        "english": "When we make a mistake, we can ask ourselves what we learned and how to improve.",
+        "chinese": "当我们犯错时，可以问自己学到了什么，怎样可以做得更好。",
+        "start": 27.455,
+        "end": 34.604
       },
       {
-        "speaker": "Mia",
-        "english": "No! Now it first asks the clipboard, ‘What formats do you have?’ and gets a short list without loading all data.",
-        "chinese": "不！现在它先询问剪贴板‘有哪些格式？’然后得到一个简短的列表，而不用加载所有数据。"
+        "speaker": "Emma",
+        "english": "That small question turns a failure into a step forward, and our confidence gets a little stronger.",
+        "chinese": "这个小问题把失败变成前进的一步，让我们的自信变得更强大一点。",
+        "start": 35.011,
+        "end": 45.965
       },
       {
-        "speaker": "Ben",
-        "english": "That sounds faster. Does that mean it only loads the part you need, like plain text or HTML?",
-        "chinese": "听起来更快了。这意味着它只加载你需要的那部分，比如纯文本或 HTML 吗？"
+        "speaker": "Emma",
+        "english": "It also helps to notice the progress we make, even if it seems tiny at first.",
+        "chinese": "注意到自己取得的进步也很有帮助，哪怕一开始看起来微不足道。",
+        "start": 46.372,
+        "end": 53.683
       },
       {
-        "speaker": "Mia",
-        "english": "Exactly! If you need plain text, the browser only grabs the text, not pictures or other stuff.",
-        "chinese": "没错！如果你需要纯文本，浏览器只会获取文字，不会获取图片或其他内容。"
+        "speaker": "Emma",
+        "english": "Maybe we wrote a sentence without a spelling error, or we finished a short exercise on time.",
+        "chinese": "也许我们写了一个没有拼写错误的句子，或者按时完成了简短的练习。",
+        "start": 54.09,
+        "end": 61.947
       },
       {
-        "speaker": "Ben",
-        "english": "Great! So the paste action should feel quicker and use less memory on my computer.",
-        "chinese": "太好了！所以粘贴操作会感觉更快，而且会占用我电脑上更少的内存。"
+        "speaker": "Emma",
+        "english": "Those little wins remind us that we are getting better, and that feeling is truly encouraging.",
+        "chinese": "这些小小的胜利提醒我们正在变得更好，那种感觉真的很鼓舞人心。",
+        "start": 62.354,
+        "end": 71.282
       },
       {
-        "speaker": "Mia",
-        "english": "Yes, and the cool part is that old apps get this boost automatically without any extra code.",
-        "chinese": "是的，而且更棒的是，旧的应用会自动获得这种提升，不需要额外的代码。"
+        "speaker": "Emma",
+        "english": "When we feel a bit proud, we can share it with a friend or write it in a small journal.",
+        "chinese": "当我们感到一点自豪时，可以和朋友分享，或者把这些进步写在小本子里。",
+        "start": 71.688,
+        "end": 77.93
       },
       {
-        "speaker": "Ben",
-        "english": "So developers don’t have to change their apps to see the improvement?",
-        "chinese": "所以开发者不需要改动应用就能看到改进吗？"
+        "speaker": "Emma",
+        "english": "Writing down progress makes it easier to look back and see how far we have come.",
+        "chinese": "把进步写下来，让我们回头看时能清楚地看到自己走过的路。",
+        "start": 78.337,
+        "end": 85.996
       },
       {
-        "speaker": "Mia",
-        "english": "Right! The browsers already handle the smart format list, so any existing code just works better.",
-        "chinese": "对！浏览器已经处理了智能格式列表，所以任何现有代码都能工作得更好。"
+        "speaker": "Emma",
+        "english": "Remember, every expert was once a beginner who practiced a little each day with patience.",
+        "chinese": "记住，每位专家曾经都是每天坚持练习一点点、耐心学习的初学者。",
+        "start": 86.403,
+        "end": 94.522
       },
       {
-        "speaker": "Ben",
-        "english": "I’m curious how much faster it feels. Maybe I’ll copy a long article and paste it right away.",
-        "chinese": "我很好奇会快多少。也许我会复制一长篇文章，然后马上粘贴试试。"
+        "speaker": "Emma",
+        "english": "So if a task feels tough, take a deep breath, try one small step, and give it a chance.",
+        "chinese": "所以如果任务觉得很难，深呼吸，尝试迈出小一步，给它一个机会。",
+        "start": 94.929,
+        "end": 104.316
       },
       {
-        "speaker": "Mia",
-        "english": "Give it a try! If you paste plain text, the browser will fetch only that text, saving time.",
-        "chinese": "试试吧！如果你粘贴纯文本，浏览器只会获取那段文字，节省时间。"
+        "speaker": "Emma",
+        "english": "Soon you will notice more confidence bubbling up inside you, like a warm sunrise.",
+        "chinese": "很快你会感受到更多的自信在内心涌动，像温暖的朝阳一样。",
+        "start": 104.723,
+        "end": 112.693
       },
       {
-        "speaker": "Ben",
-        "english": "Sounds good! I’ll also test it with HTML snippets to see the difference.",
-        "chinese": "听起来不错！我也会用 HTML 片段测试一下，看看有什么不同。"
-      },
-      {
-        "speaker": "Mia",
-        "english": "Let me know what you notice! It’s nice when simple changes make everyday tasks smoother.",
-        "chinese": "记得告诉我你的感受！当简单的改动让日常任务更顺畅时，真的很棒。"
-      },
-      {
-        "speaker": "Ben",
-        "english": "Will do, Mia. Thanks for sharing the news, and I’ll report back soon!",
-        "chinese": "我会的，Mia。谢谢分享这个消息，我会尽快反馈！"
+        "speaker": "Emma",
+        "english": "You are enough, and every effort you make is proof of your growing strength.",
+        "chinese": "你已经足够好了，你付出的每一次努力都证明你正在变得更强大。",
+        "start": 113.1,
+        "end": 120.0
       }
     ],
-    "source_title": "Selective format read: Better defaults for the Async Clipboard API",
-    "source_date": "2026-07-03",
-    "source_url": "https://developer.chrome.com/blog/selective-format-read",
-    "level": "CEFR A1 / US elementary grades 3-5",
-    "english_word_count": 267
+    "source_title": "Original A2 daily English monologue",
+    "source_date": "2026-07-15",
+    "source_url": "10-believe-in-yourself/transcript.md",
+    "level": "CEFR A2 / US elementary grades 4-6",
+    "english_word_count": 230
   }
 ];

@@ -1,0 +1,108 @@
+{
+  "title": "A Quiet Morning",
+  "dialogue": [
+    {
+      "speaker": "Emma",
+      "english": "The morning sun came through my window slowly, like it knew I needed a gentle start.",
+      "chinese": "早晨的阳光慢慢透过窗户洒进来，仿佛它知道我需要一个温柔的开始。",
+      "start": 0.0,
+      "end": 6.477
+    },
+    {
+      "speaker": "Emma",
+      "english": "I did not jump out of bed right away. I stayed still for a moment and breathed deeply.",
+      "chinese": "我没有立刻跳下床。我静静地躺了一会儿，深深地呼吸着。",
+      "start": 6.849,
+      "end": 14.63
+    },
+    {
+      "speaker": "Emma",
+      "english": "That quiet pause made my mind feel light and ready for whatever the day would bring.",
+      "chinese": "那片刻的安静让我的心灵感到轻松，准备好迎接这一天的到来。",
+      "start": 15.002,
+      "end": 21.763
+    },
+    {
+      "speaker": "Emma",
+      "english": "I sat up slowly and took a few sips of cool water. It helped me wake up gently.",
+      "chinese": "我慢慢坐起来，喝了几口凉水。它帮助我轻柔地醒来。",
+      "start": 22.134,
+      "end": 30.744
+    },
+    {
+      "speaker": "Emma",
+      "english": "Next, I held a warm cup of tea between my hands. The heat felt soothing and calming.",
+      "chinese": "然后，我把一杯温热的茶捧在手中。那热度让我感到舒缓和平静。",
+      "start": 31.115,
+      "end": 39.351
+    },
+    {
+      "speaker": "Emma",
+      "english": "I looked out the window at the quiet street below. Everything seemed peaceful and still.",
+      "chinese": "我望向窗外，看着下面安静的街道。一切看起来都那么宁静安详。",
+      "start": 39.722,
+      "end": 47.594
+    },
+    {
+      "speaker": "Emma",
+      "english": "I thought about the day ahead without worry. I felt calm and curious about what might happen.",
+      "chinese": "我心平气和地想着这一天将会发生什么。我感到平静且对未知充满好奇。",
+      "start": 47.966,
+      "end": 56.485
+    },
+    {
+      "speaker": "Emma",
+      "english": "I reminded myself to be grateful for this quiet moment. Gratitude made my heart feel full and warm.",
+      "chinese": "我提醒自己珍惜这段安静的时光。感恩让我的内心感到充实和温暖。",
+      "start": 56.856,
+      "end": 66.203
+    },
+    {
+      "speaker": "Emma",
+      "english": "When mornings feel rushed, my thoughts feel tangled and noisy. But this slow start helped me think clearly.",
+      "chinese": "当早晨很匆忙时，我的思绪会变得混乱嘈杂。但这样缓慢的开始帮助我清晰地思考。",
+      "start": 66.575,
+      "end": 75.968
+    },
+    {
+      "speaker": "Emma",
+      "english": "I know not every morning can be perfect, but even a few calm minutes can make a big difference.",
+      "chinese": "我知道不是每天早晨都能完美，但即使只有几分钟的平静也能带来很大的不同。",
+      "start": 76.339,
+      "end": 84.064
+    },
+    {
+      "speaker": "Emma",
+      "english": "Small choices like sitting still or holding a warm drink helped me feel grounded and present.",
+      "chinese": "像静坐或捧着温暖饮品这样的小选择，帮助我感到踏实和专注。",
+      "start": 84.435,
+      "end": 93.374
+    },
+    {
+      "speaker": "Emma",
+      "english": "Over time, this gentle routine became something I looked forward to each morning with quiet joy.",
+      "chinese": "渐渐地，这个温柔的晨间习惯变成了我每天早晨都会怀着安静喜悦期待的事情。",
+      "start": 93.745,
+      "end": 103.24
+    },
+    {
+      "speaker": "Emma",
+      "english": "I hope you find your own peaceful moments in the early hours. They are worth protecting.",
+      "chinese": "我希望你在清晨也能找到属于自己的宁静时刻。这些时刻值得被守护。",
+      "start": 103.611,
+      "end": 112.04
+    },
+    {
+      "speaker": "Emma",
+      "english": "Starting your day with calm can change how you feel, one gentle morning at a time.",
+      "chinese": "用平静开启新的一天，可以一点一点地改变你的感受。",
+      "start": 112.411,
+      "end": 120.0
+    }
+  ],
+  "source_title": "Original A2 daily English monologue",
+  "source_date": "2026-07-15",
+  "source_url": "02-a-quiet-morning/transcript.md",
+  "level": "CEFR A2 / US elementary grades 4-6",
+  "english_word_count": 236
+}
