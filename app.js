@@ -230,6 +230,8 @@
     $('#coverProduct').textContent = lesson.product;
     $('#episodeDate').textContent = lesson.source_date;
     $('#episodeDate').dateTime = lesson.source_date;
+    const level = lesson.level.match(/CEFR\s+(A\d)/)?.[1] || 'A2';
+    $('#levelLabel').textContent = `CEFR ${level}`;
     $('#episodeLogo').src = lesson.logo;
     $('#episodeLogo').alt = `${lesson.product} logo`;
     $('#sourceTitle').textContent = lesson.source_title;

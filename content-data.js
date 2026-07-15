@@ -1148,5 +1148,235 @@ window.CHANGELIFE_LESSONS = [
     "source_url": "10-believe-in-yourself/transcript.md",
     "level": "CEFR A2 / US elementary grades 4-6",
     "english_word_count": 230
+  },
+  {
+    "id": "11-a-cup-of-water",
+    "number": "11",
+    "audio": "11-a-cup-of-water/audio.mp3",
+    "product": "WATER",
+    "logo": "assets/changelife.svg",
+    "accent": "#227a6b",
+    "tint": "#e3f3ef",
+    "title": "A Cup of Water",
+    "dialogue": [
+      {
+        "speaker": "Emma",
+        "english": "Hi, I’m Emma. Let me share one small habit that helps me every day.",
+        "chinese": "大家好，我是艾玛。让我分享一个每天都在帮助我的小习惯。",
+        "start": 0.0,
+        "end": 9.017
+      },
+      {
+        "speaker": "Emma",
+        "english": "Each morning, I drink a glass of water after I get out of bed.",
+        "chinese": "每天早上起床后，我都会喝一杯水。",
+        "start": 9.679,
+        "end": 17.185
+      },
+      {
+        "speaker": "Emma",
+        "english": "The water is cool and fresh, and it helps me wake up slowly.",
+        "chinese": "水又凉又清新，能帮助我慢慢清醒。",
+        "start": 17.848,
+        "end": 25.605
+      },
+      {
+        "speaker": "Emma",
+        "english": "I keep a blue cup beside the sink, so it is easy to remember.",
+        "chinese": "我把一个蓝色杯子放在水池旁边，这样就很容易记住。",
+        "start": 26.268,
+        "end": 33.83
+      },
+      {
+        "speaker": "Emma",
+        "english": "I fill the cup, take a small sip, and enjoy the quiet morning.",
+        "chinese": "我把杯子装满，喝上一小口，享受安静的早晨。",
+        "start": 34.492,
+        "end": 43.969
+      },
+      {
+        "speaker": "Emma",
+        "english": "Drinking water makes my mouth feel fresh and my body feel ready.",
+        "chinese": "喝水让我的嘴巴感觉清爽，也让身体准备好开始一天。",
+        "start": 44.631,
+        "end": 52.459
+      },
+      {
+        "speaker": "Emma",
+        "english": "I also carry a small bottle when I go to school or work.",
+        "chinese": "去学校或上班时，我也会带一个小水瓶。",
+        "start": 53.121,
+        "end": 59.299
+      },
+      {
+        "speaker": "Emma",
+        "english": "When I feel tired, I stop for a moment and take a drink.",
+        "chinese": "感到累的时候，我会停一会儿，喝一口水。",
+        "start": 59.961,
+        "end": 67.006
+      },
+      {
+        "speaker": "Emma",
+        "english": "This short break helps me slow down and begin again with more energy.",
+        "chinese": "这短暂的休息让我慢下来，再更有精神地重新开始。",
+        "start": 67.668,
+        "end": 76.614
+      },
+      {
+        "speaker": "Emma",
+        "english": "I do not need a special drink or a difficult plan.",
+        "chinese": "我不需要特别的饮料，也不需要复杂的计划。",
+        "start": 77.276,
+        "end": 85.635
+      },
+      {
+        "speaker": "Emma",
+        "english": "Clean water and a few quiet seconds are enough for this simple habit.",
+        "chinese": "干净的水和几秒钟的安静时间，就足够养成这个简单习惯。",
+        "start": 86.297,
+        "end": 96.431
+      },
+      {
+        "speaker": "Emma",
+        "english": "At night, I wash my cup and put it back by the sink.",
+        "chinese": "晚上，我洗好杯子，再把它放回水池旁边。",
+        "start": 97.094,
+        "end": 103.482
+      },
+      {
+        "speaker": "Emma",
+        "english": "Then it is ready for me when a new morning begins.",
+        "chinese": "这样，新的一天开始时，它已经准备好了。",
+        "start": 104.144,
+        "end": 111.51
+      },
+      {
+        "speaker": "Emma",
+        "english": "One small glass of water can be a kind start to your day.",
+        "chinese": "一小杯水，就能为你的一天带来温柔的开始。",
+        "start": 112.172,
+        "end": 120.0
+      }
+    ],
+    "source_title": "Original A1 easy English monologue",
+    "source_date": "2026-07-15",
+    "source_url": "11-a-cup-of-water/transcript.md",
+    "level": "CEFR A1 / US elementary grades 2-4",
+    "english_word_count": 181
+  },
+  {
+    "id": "12-a-quiet-evening-walk",
+    "number": "12",
+    "audio": "12-a-quiet-evening-walk/audio.mp3",
+    "product": "WALK",
+    "logo": "assets/changelife.svg",
+    "accent": "#7b5f23",
+    "tint": "#f7efd9",
+    "title": "A Quiet Evening Walk",
+    "dialogue": [
+      {
+        "speaker": "Emma",
+        "english": "After dinner, I like to take a short and quiet walk near my home.",
+        "chinese": "晚饭后，我喜欢在家附近安静地走一小段路。",
+        "start": 0.0,
+        "end": 7.665
+      },
+      {
+        "speaker": "Emma",
+        "english": "I put on my comfortable shoes, open the front door, and step outside.",
+        "chinese": "我穿上舒服的鞋，打开前门，走到外面。",
+        "start": 8.253,
+        "end": 16.378
+      },
+      {
+        "speaker": "Emma",
+        "english": "The evening air feels cool, and the street looks calm under the soft lights.",
+        "chinese": "晚上的空气很凉爽，街道在柔和的灯光下显得很安静。",
+        "start": 16.966,
+        "end": 25.798
+      },
+      {
+        "speaker": "Emma",
+        "english": "I walk slowly because I do not need to hurry or go very far.",
+        "chinese": "我慢慢地走，因为不用着急，也不需要走很远。",
+        "start": 26.387,
+        "end": 33.518
+      },
+      {
+        "speaker": "Emma",
+        "english": "First, I pass a small shop with warm yellow lights in the window.",
+        "chinese": "首先，我经过一家小店，窗户里亮着温暖的黄色灯光。",
+        "start": 34.106,
+        "end": 42.056
+      },
+      {
+        "speaker": "Emma",
+        "english": "Then I see tall trees, parked cars, and people walking with their dogs.",
+        "chinese": "然后，我看到高高的树、停着的汽车，还有带狗散步的人。",
+        "start": 42.645,
+        "end": 52.707
+      },
+      {
+        "speaker": "Emma",
+        "english": "Sometimes a neighbor smiles and says hello when we meet on the street.",
+        "chinese": "有时在街上遇到邻居，对方会微笑着和我打招呼。",
+        "start": 53.296,
+        "end": 60.551
+      },
+      {
+        "speaker": "Emma",
+        "english": "I smile back, and that small friendly moment makes me feel happy.",
+        "chinese": "我也回以微笑，这个友好的小瞬间让我感到开心。",
+        "start": 61.139,
+        "end": 69.325
+      },
+      {
+        "speaker": "Emma",
+        "english": "I can hear birds in the trees and dry leaves under my feet.",
+        "chinese": "我能听到树上的鸟叫声，还有脚下干树叶的声音。",
+        "start": 69.914,
+        "end": 75.529
+      },
+      {
+        "speaker": "Emma",
+        "english": "I look at the sky and watch the last light of the day.",
+        "chinese": "我抬头看看天空，注视着一天中最后的光亮。",
+        "start": 76.117,
+        "end": 83.546
+      },
+      {
+        "speaker": "Emma",
+        "english": "For a few minutes, I forget my phone, my work, and my busy plans.",
+        "chinese": "有那么几分钟，我忘记了手机、工作和忙碌的计划。",
+        "start": 84.135,
+        "end": 92.209
+      },
+      {
+        "speaker": "Emma",
+        "english": "I simply look around, breathe slowly, and enjoy the place where I live.",
+        "chinese": "我只是看看四周，慢慢呼吸，享受自己居住的地方。",
+        "start": 92.798,
+        "end": 102.86
+      },
+      {
+        "speaker": "Emma",
+        "english": "Soon I turn around and walk back home with a warm and quiet mind.",
+        "chinese": "很快，我转身往家走，心里温暖又平静。",
+        "start": 103.449,
+        "end": 112.455
+      },
+      {
+        "speaker": "Emma",
+        "english": "A simple walk can make an ordinary evening feel peaceful and good.",
+        "chinese": "一次简单的散步，就能让普通的夜晚变得宁静而美好。",
+        "start": 113.043,
+        "end": 120.0
+      }
+    ],
+    "source_title": "Original A1 easy English monologue",
+    "source_date": "2026-07-15",
+    "source_url": "12-a-quiet-evening-walk/transcript.md",
+    "level": "CEFR A1 / US elementary grades 2-4",
+    "english_word_count": 185
   }
 ];

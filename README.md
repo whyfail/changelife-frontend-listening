@@ -1,13 +1,13 @@
 # ChangeLife Daily Listening
 
-一个面向英语初学者的日常英语听力应用。项目包含 10 期 CEFR A2（小学高年级水平）单人美式英语旁白，每期约 2 分钟，并提供逐句同步的英汉字幕。
+一个面向英语初学者的日常英语听力应用。项目包含 12 期 CEFR A1-A2 单人美式英语旁白，每期约 2 分钟，并提供逐句同步的英汉字幕。
 
 [在线体验](https://whyfail.github.io/changelife-frontend-listening/)
 
 ## 功能
 
-- 10 期生活、习惯和自我成长主题听力，每期约 2 分钟
-- 温和自然的美式女声，约 115–125 词/分钟
+- 12 期生活、习惯和自我成长主题听力，每期约 2 分钟
+- 温和自然的美式女声，A1 节目约 90–93 词/分钟
 - 英文、中文及双语字幕模式
 - 音频进度与字幕逐句同步
 - 自动跟随当前句，支持点击句子跳转播放
@@ -42,6 +42,8 @@ python3 -m http.server 8080
 | 8 | [Making a New Friend](08-making-a-new-friend/transcript.md) | 220 | 120.0s |
 | 9 | [A Peaceful Night](09-a-peaceful-night/transcript.md) | 231 | 120.0s |
 | 10 | [Believe in Yourself](10-believe-in-yourself/transcript.md) | 230 | 120.0s |
+| 11 | [A Cup of Water](11-a-cup-of-water/transcript.md) | 181 | 120.0s |
+| 12 | [A Quiet Evening Walk](12-a-quiet-evening-walk/transcript.md) | 185 | 120.0s |
 
 ## 项目结构
 

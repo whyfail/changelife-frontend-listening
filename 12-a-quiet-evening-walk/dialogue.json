@@ -1,0 +1,108 @@
+{
+  "title": "A Quiet Evening Walk",
+  "dialogue": [
+    {
+      "speaker": "Emma",
+      "english": "After dinner, I like to take a short and quiet walk near my home.",
+      "chinese": "晚饭后，我喜欢在家附近安静地走一小段路。",
+      "start": 0.0,
+      "end": 7.665
+    },
+    {
+      "speaker": "Emma",
+      "english": "I put on my comfortable shoes, open the front door, and step outside.",
+      "chinese": "我穿上舒服的鞋，打开前门，走到外面。",
+      "start": 8.253,
+      "end": 16.378
+    },
+    {
+      "speaker": "Emma",
+      "english": "The evening air feels cool, and the street looks calm under the soft lights.",
+      "chinese": "晚上的空气很凉爽，街道在柔和的灯光下显得很安静。",
+      "start": 16.966,
+      "end": 25.798
+    },
+    {
+      "speaker": "Emma",
+      "english": "I walk slowly because I do not need to hurry or go very far.",
+      "chinese": "我慢慢地走，因为不用着急，也不需要走很远。",
+      "start": 26.387,
+      "end": 33.518
+    },
+    {
+      "speaker": "Emma",
+      "english": "First, I pass a small shop with warm yellow lights in the window.",
+      "chinese": "首先，我经过一家小店，窗户里亮着温暖的黄色灯光。",
+      "start": 34.106,
+      "end": 42.056
+    },
+    {
+      "speaker": "Emma",
+      "english": "Then I see tall trees, parked cars, and people walking with their dogs.",
+      "chinese": "然后，我看到高高的树、停着的汽车，还有带狗散步的人。",
+      "start": 42.645,
+      "end": 52.707
+    },
+    {
+      "speaker": "Emma",
+      "english": "Sometimes a neighbor smiles and says hello when we meet on the street.",
+      "chinese": "有时在街上遇到邻居，对方会微笑着和我打招呼。",
+      "start": 53.296,
+      "end": 60.551
+    },
+    {
+      "speaker": "Emma",
+      "english": "I smile back, and that small friendly moment makes me feel happy.",
+      "chinese": "我也回以微笑，这个友好的小瞬间让我感到开心。",
+      "start": 61.139,
+      "end": 69.325
+    },
+    {
+      "speaker": "Emma",
+      "english": "I can hear birds in the trees and dry leaves under my feet.",
+      "chinese": "我能听到树上的鸟叫声，还有脚下干树叶的声音。",
+      "start": 69.914,
+      "end": 75.529
+    },
+    {
+      "speaker": "Emma",
+      "english": "I look at the sky and watch the last light of the day.",
+      "chinese": "我抬头看看天空，注视着一天中最后的光亮。",
+      "start": 76.117,
+      "end": 83.546
+    },
+    {
+      "speaker": "Emma",
+      "english": "For a few minutes, I forget my phone, my work, and my busy plans.",
+      "chinese": "有那么几分钟，我忘记了手机、工作和忙碌的计划。",
+      "start": 84.135,
+      "end": 92.209
+    },
+    {
+      "speaker": "Emma",
+      "english": "I simply look around, breathe slowly, and enjoy the place where I live.",
+      "chinese": "我只是看看四周，慢慢呼吸，享受自己居住的地方。",
+      "start": 92.798,
+      "end": 102.86
+    },
+    {
+      "speaker": "Emma",
+      "english": "Soon I turn around and walk back home with a warm and quiet mind.",
+      "chinese": "很快，我转身往家走，心里温暖又平静。",
+      "start": 103.449,
+      "end": 112.455
+    },
+    {
+      "speaker": "Emma",
+      "english": "A simple walk can make an ordinary evening feel peaceful and good.",
+      "chinese": "一次简单的散步，就能让普通的夜晚变得宁静而美好。",
+      "start": 113.043,
+      "end": 120.0
+    }
+  ],
+  "source_title": "Original A1 easy English monologue",
+  "source_date": "2026-07-15",
+  "source_url": "12-a-quiet-evening-walk/transcript.md",
+  "level": "CEFR A1 / US elementary grades 2-4",
+  "english_word_count": 185
+}
