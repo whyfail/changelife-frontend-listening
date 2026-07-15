@@ -10,7 +10,7 @@
   const progressRange = $('#progressRange');
   const volumeRange = $('#volumeRange');
   const playButton = $('#playButton');
-  const speedButton = $('#speedButton');
+  const speedSelect = $('#speedSelect');
   const favoriteButton = $('#favoriteButton');
   const languageMode = $('#languageMode');
   const playModeControl = $('#playModeControl');
@@ -33,12 +33,13 @@
   window.addEventListener('scroll', lockViewport, { passive: true });
 
   const savedIndex = Number(localStorage.getItem('changelife:lastLesson'));
+  const savedSpeed = Number(localStorage.getItem('changelife:speed'));
   const savedPlayMode = localStorage.getItem('changelife:playMode');
   const state = {
     currentIndex: Number.isInteger(savedIndex) && savedIndex >= 0 && savedIndex < lessons.length ? savedIndex : 0,
     activeLine: -1,
     mode: localStorage.getItem('changelife:mode') || 'bilingual',
-    speed: Number(localStorage.getItem('changelife:speed')) || 1,
+    speed: speeds.includes(savedSpeed) ? savedSpeed : 1,
     playMode: playModes.has(savedPlayMode) ? savedPlayMode : 'sequence',
     favorites: restoreSet('favorites'),
     completed: restoreSet('completed'),
@@ -70,6 +71,12 @@
   const progressStyle = (input, value, max) => {
     const percentage = max > 0 ? Math.min(100, Math.max(0, (value / max) * 100)) : 0;
     input.style.setProperty('--range-progress', `${percentage}%`);
+  };
+
+  const applyPlaybackSpeed = () => {
+    audio.defaultPlaybackRate = state.speed;
+    audio.playbackRate = state.speed;
+    speedSelect.value = String(state.speed);
   };
 
   const buildSegments = (duration = 120) => {
@@ -239,7 +246,7 @@
     document.title = `${lesson.title} · ChangeLife`;
 
     audio.src = lesson.audio;
-    audio.playbackRate = state.speed;
+    applyPlaybackSpeed();
     progressRange.value = 0;
     progressRange.max = 120;
     progressStyle(progressRange, 0, 120);
@@ -308,12 +315,12 @@
     showToast(state.favorites.has(id) ? '已收藏当前节目' : '已取消收藏');
   });
 
-  speedButton.addEventListener('click', () => {
-    const current = speeds.indexOf(state.speed);
-    state.speed = speeds[(current + 1) % speeds.length];
-    audio.playbackRate = state.speed;
-    speedButton.textContent = formatSpeed(state.speed);
+  speedSelect.addEventListener('change', () => {
+    const nextSpeed = Number(speedSelect.value);
+    state.speed = speeds.includes(nextSpeed) ? nextSpeed : 1;
+    applyPlaybackSpeed();
     localStorage.setItem('changelife:speed', String(state.speed));
+    showToast(`播放速度已设为 ${formatSpeed(state.speed)}`);
   });
 
   playModeControl.addEventListener('click', (event) => {
@@ -345,6 +352,7 @@
   searchInput.addEventListener('input', () => renderLessonList(searchInput.value));
 
   audio.addEventListener('loadedmetadata', () => {
+    applyPlaybackSpeed();
     const duration = audio.duration || 120;
     progressRange.max = duration;
     $('#durationTime').textContent = formatTime(duration);
@@ -363,7 +371,10 @@
     }
   });
 
-  audio.addEventListener('play', setPlayIcon);
+  audio.addEventListener('play', () => {
+    applyPlaybackSpeed();
+    setPlayIcon();
+  });
   audio.addEventListener('pause', setPlayIcon);
   audio.addEventListener('error', () => showToast('音频加载失败，请确认节目文件与页面位于同一目录'));
   audio.addEventListener('ended', () => {
@@ -395,8 +406,7 @@
 
   autoScroll.checked = localStorage.getItem('changelife:autoScroll') !== 'false';
   autoScroll.addEventListener('change', () => localStorage.setItem('changelife:autoScroll', String(autoScroll.checked)));
-  speedButton.textContent = formatSpeed(state.speed);
-  audio.playbackRate = state.speed;
+  applyPlaybackSpeed();
   progressStyle(volumeRange, 1, 1);
   updateMode();
   updatePlayMode();
