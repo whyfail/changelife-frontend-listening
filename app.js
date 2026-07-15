@@ -13,9 +13,11 @@
   const speedButton = $('#speedButton');
   const favoriteButton = $('#favoriteButton');
   const languageMode = $('#languageMode');
+  const playModeControl = $('#playModeControl');
   const autoScroll = $('#autoScroll');
   const searchInput = $('#lessonSearch');
   const speeds = [0.75, 1, 1.25, 1.5];
+  const playModes = new Set(['single', 'sequence', 'shuffle']);
   const formatSpeed = (value) => (Number.isInteger(value) ? `${value.toFixed(1)}×` : `${value}×`);
   const lessonIds = new Set(lessons.map((lesson) => lesson.id));
   const restoreSet = (name) => {
@@ -31,11 +33,13 @@
   window.addEventListener('scroll', lockViewport, { passive: true });
 
   const savedIndex = Number(localStorage.getItem('changelife:lastLesson'));
+  const savedPlayMode = localStorage.getItem('changelife:playMode');
   const state = {
     currentIndex: Number.isInteger(savedIndex) && savedIndex >= 0 && savedIndex < lessons.length ? savedIndex : 0,
     activeLine: -1,
     mode: localStorage.getItem('changelife:mode') || 'bilingual',
     speed: Number(localStorage.getItem('changelife:speed')) || 1,
+    playMode: playModes.has(savedPlayMode) ? savedPlayMode : 'sequence',
     favorites: restoreSet('favorites'),
     completed: restoreSet('completed'),
     segments: [],
@@ -184,6 +188,22 @@
     $$('.transcript-line').forEach((line) => (line.dataset.mode = state.mode));
   };
 
+  const updatePlayMode = () => {
+    $$('[data-play-mode]').forEach((button) => {
+      const active = button.dataset.playMode === state.playMode;
+      button.classList.toggle('active', active);
+      button.setAttribute('aria-pressed', String(active));
+    });
+  };
+
+  const randomLessonIndex = () => {
+    if (lessons.length < 2) return state.currentIndex;
+    const candidate = Math.floor(Math.random() * (lessons.length - 1));
+    return candidate >= state.currentIndex ? candidate + 1 : candidate;
+  };
+
+  const nextLessonIndex = () => (state.playMode === 'shuffle' ? randomLessonIndex() : state.currentIndex + 1);
+
   const setPlayIcon = () => {
     const playing = !audio.paused;
     playButton.innerHTML = `<i data-lucide="${playing ? 'pause' : 'play'}"></i>`;
@@ -270,7 +290,7 @@
 
   playButton.addEventListener('click', togglePlay);
   $('#previousButton').addEventListener('click', () => loadLesson(state.currentIndex - 1, true));
-  $('#nextButton').addEventListener('click', () => loadLesson(state.currentIndex + 1, true));
+  $('#nextButton').addEventListener('click', () => loadLesson(nextLessonIndex(), true));
   $('#rewindButton').addEventListener('click', () => (audio.currentTime = Math.max(0, audio.currentTime - 10)));
   $('#forwardButton').addEventListener('click', () => (audio.currentTime = Math.min(audio.duration || 120, audio.currentTime + 10)));
   $('#drawerOpen').addEventListener('click', openDrawer);
@@ -292,6 +312,14 @@
     audio.playbackRate = state.speed;
     speedButton.textContent = formatSpeed(state.speed);
     localStorage.setItem('changelife:speed', String(state.speed));
+  });
+
+  playModeControl.addEventListener('click', (event) => {
+    const button = event.target.closest('button[data-play-mode]');
+    if (!button) return;
+    state.playMode = button.dataset.playMode;
+    localStorage.setItem('changelife:playMode', state.playMode);
+    updatePlayMode();
   });
 
   volumeRange.addEventListener('input', () => {
@@ -339,7 +367,14 @@
   audio.addEventListener('ended', () => {
     state.completed.add(currentLesson().id);
     saveSet('completed', state.completed);
-    loadLesson(state.currentIndex + 1, true);
+    if (state.playMode === 'single') {
+      state.activeLine = -1;
+      audio.currentTime = 0;
+      transcriptScroll.scrollTop = 0;
+      audio.play().catch(() => showToast('点击播放按钮继续收听'));
+      return;
+    }
+    loadLesson(nextLessonIndex(), true);
   });
 
   document.addEventListener('keydown', (event) => {
@@ -362,5 +397,6 @@
   audio.playbackRate = state.speed;
   progressStyle(volumeRange, 1, 1);
   updateMode();
+  updatePlayMode();
   loadLesson(state.currentIndex, false);
 })();
