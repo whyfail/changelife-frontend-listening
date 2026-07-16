@@ -120,6 +120,9 @@
       `${lesson.title} ${lesson.product}`.toLowerCase().includes(normalized),
     );
     $('#lessonCount').textContent = String(filtered.length);
+    $('#totalMinutes').textContent = String(
+      Math.round(lessons.reduce((total, lesson) => total + (lesson.duration_seconds || 120), 0) / 60),
+    );
     $('#completedCount').textContent = `${state.completed.size} / ${lessons.length} complete`;
 
     if (!filtered.length) {
@@ -136,7 +139,7 @@
             <span class="lesson-index">${lesson.number}</span>
             <span class="lesson-copy">
               <strong>${lesson.title}</strong>
-              <span>${lesson.product} · 2 min</span>
+              <span>${lesson.product} · ${Math.max(1, Math.round((lesson.duration_seconds || 120) / 60))} min</span>
             </span>
             <span class="lesson-state" aria-hidden="true">${lessonIcon(lesson)}</span>
           </button>`;
@@ -237,7 +240,7 @@
     $('#coverProduct').textContent = lesson.product;
     $('#episodeDate').textContent = lesson.source_date;
     $('#episodeDate').dateTime = lesson.source_date;
-    const level = lesson.level.match(/CEFR\s+(A\d)/)?.[1] || 'A2';
+    const level = lesson.level.match(/CEFR\s+(A\d(?:-A\d)?)/)?.[1] || 'A2';
     $('#levelLabel').textContent = `CEFR ${level}`;
     $('#episodeLogo').src = lesson.logo;
     $('#episodeLogo').alt = `${lesson.product} logo`;

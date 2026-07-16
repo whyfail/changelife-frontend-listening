@@ -1,0 +1,341 @@
+window.CHANGELIFE_LESSONS.push({
+  "id": "13-connected-speech-practice",
+  "number": "13",
+  "audio": "13-connected-speech-practice/audio.mp3",
+  "product": "PRONUNCIATION",
+  "logo": "assets/changelife.svg",
+  "accent": "#a34432",
+  "tint": "#fae9e5",
+  "title": "Connected Speech Practice",
+  "dialogue": [
+    {
+      "speaker": "Emma",
+      "english": "Listen to the clear sentence first. Then hear natural American speech two times.",
+      "chinese": "先听清晰完整的句子，再听两遍自然美式口语。",
+      "start": 0.0,
+      "end": 7.198
+    },
+    {
+      "speaker": "Emma",
+      "english": "Part one. Four easy examples.",
+      "chinese": "第一部分：四个入门例子。",
+      "start": 8.398,
+      "end": 12.706
+    },
+    {
+      "speaker": "Emma",
+      "english": "Clear: Because I love you.  Natural: Because I love you.",
+      "chinese": "因为我爱你。because 的非重读音节会弱化。",
+      "start": 13.656,
+      "end": 21.736
+    },
+    {
+      "speaker": "Emma",
+      "english": "Clear: You can do it.  Natural: You can do it.",
+      "chinese": "你能做到。肯定句中的 can 常弱读为 /kən/。",
+      "start": 22.686,
+      "end": 28.399
+    },
+    {
+      "speaker": "Emma",
+      "english": "Clear: What did he say?  Natural: What did he say?",
+      "chinese": "他说了什么？did he 连读时，he 的 h 可能弱化。",
+      "start": 29.349,
+      "end": 35.584
+    },
+    {
+      "speaker": "Emma",
+      "english": "Clear: What are you doing?  Natural: Whaddaya doing?",
+      "chinese": "你在做什么？what are you 会连续弱读和连读。",
+      "start": 36.534,
+      "end": 42.815
+    },
+    {
+      "speaker": "Emma",
+      "english": "Part two. Weak sounds.",
+      "chinese": "第二部分：高频弱读。",
+      "start": 44.965,
+      "end": 48.564
+    },
+    {
+      "speaker": "Emma",
+      "english": "Clear: I want to go.  Natural: I wanna go.",
+      "chinese": "我想走。to 在非重读位置常弱读，want to 常连成 wanna。",
+      "start": 49.514,
+      "end": 54.356
+    },
+    {
+      "speaker": "Emma",
+      "english": "Clear: This is for you.  Natural: This is fer ya.",
+      "chinese": "这是给你的。for 和 you 都会弱读。",
+      "start": 55.306,
+      "end": 62.168
+    },
+    {
+      "speaker": "Emma",
+      "english": "Clear: You and me.  Natural: You 'n me.",
+      "chinese": "你和我。and 常弱读到只剩 /n/。",
+      "start": 63.118,
+      "end": 69.701
+    },
+    {
+      "speaker": "Emma",
+      "english": "Clear: A cup of tea.  Natural: A cup uh tea.",
+      "chinese": "一杯茶。of 常弱读为 /əv/，有时更接近 /ə/。",
+      "start": 70.651,
+      "end": 77.129
+    },
+    {
+      "speaker": "Emma",
+      "english": "Clear: I can do it.  Natural: I c'n do it.",
+      "chinese": "我能做到。肯定句中的 can 通常不重读。",
+      "start": 78.079,
+      "end": 84.686
+    },
+    {
+      "speaker": "Emma",
+      "english": "Clear: Do you know?  Natural: D'ya know?",
+      "chinese": "你知道吗？you 常弱读为 /jə/。",
+      "start": 85.636,
+      "end": 90.42
+    },
+    {
+      "speaker": "Emma",
+      "english": "Clear: Tell him to come.  Natural: Tell 'im ta come.",
+      "chinese": "叫他来。him 的 h 可能省略，to 同时弱读。",
+      "start": 91.37,
+      "end": 100.031
+    },
+    {
+      "speaker": "Emma",
+      "english": "Clear: Give her a call.  Natural: Give 'er a call.",
+      "chinese": "给她打个电话。her 的 h 可能省略。",
+      "start": 100.981,
+      "end": 106.217
+    },
+    {
+      "speaker": "Emma",
+      "english": "Part three. Linking and sound changes.",
+      "chinese": "第三部分：连读、同化与省音。",
+      "start": 108.367,
+      "end": 113.476
+    },
+    {
+      "speaker": "Emma",
+      "english": "Clear: Did you see it?  Natural: Didja see it?",
+      "chinese": "你看见了吗？did you 常听起来像 didja。",
+      "start": 114.426,
+      "end": 119.5
+    },
+    {
+      "speaker": "Emma",
+      "english": "Clear: Would you help me?  Natural: Wouldja help me?",
+      "chinese": "你愿意帮我吗？would you 常发生同化。",
+      "start": 120.45,
+      "end": 126.266
+    },
+    {
+      "speaker": "Emma",
+      "english": "Clear: Could you open it?  Natural: Couldja open it?",
+      "chinese": "你能打开它吗？could you 常发生同化。",
+      "start": 127.216,
+      "end": 133.08
+    },
+    {
+      "speaker": "Emma",
+      "english": "Clear: Don't you know?  Natural: Dontcha know?",
+      "chinese": "你不知道吗？don't you 常听起来像 dontcha。",
+      "start": 134.03,
+      "end": 139.29
+    },
+    {
+      "speaker": "Emma",
+      "english": "Clear: Can't you see?  Natural: Cantcha see?",
+      "chinese": "你看不见吗？can't you 常听起来像 cantcha。",
+      "start": 140.24,
+      "end": 145.964
+    },
+    {
+      "speaker": "Emma",
+      "english": "Clear: What do you want?  Natural: Whaddaya want?",
+      "chinese": "你想要什么？what do you 会连续弱读和连读。",
+      "start": 146.914,
+      "end": 153.427
+    },
+    {
+      "speaker": "Emma",
+      "english": "Clear: What are you doing?  Natural: Whaddaya doing?",
+      "chinese": "你在做什么？are 和 you 都会弱读并连在一起。",
+      "start": 154.377,
+      "end": 162.795
+    },
+    {
+      "speaker": "Emma",
+      "english": "Clear: Does he know?  Natural: Does 'e know?",
+      "chinese": "他知道吗？does he 连读时 h 可能弱化。",
+      "start": 163.745,
+      "end": 169.144
+    },
+    {
+      "speaker": "Emma",
+      "english": "Clear: Is he coming?  Natural: Is 'e coming?",
+      "chinese": "他来吗？is he 连读时 h 可能弱化。",
+      "start": 170.094,
+      "end": 175.551
+    },
+    {
+      "speaker": "Emma",
+      "english": "Clear: Tell him the truth.  Natural: Tell 'im the truth.",
+      "chinese": "告诉他真相。tell him 连读时 him 的 h 可能省略。",
+      "start": 176.501,
+      "end": 185.452
+    },
+    {
+      "speaker": "Emma",
+      "english": "Part four. Common short forms.",
+      "chinese": "第四部分：常见固定缩读。",
+      "start": 187.602,
+      "end": 192.525
+    },
+    {
+      "speaker": "Emma",
+      "english": "Clear: I'm going to leave.  Natural: I'm gonna leave.",
+      "chinese": "我要走了。going to 常缩读为 gonna。",
+      "start": 193.475,
+      "end": 198.99
+    },
+    {
+      "speaker": "Emma",
+      "english": "Clear: Do you want to go?  Natural: D'ya wanna go?",
+      "chinese": "你想去吗？want to 常缩读为 wanna。",
+      "start": 199.94,
+      "end": 205.618
+    },
+    {
+      "speaker": "Emma",
+      "english": "Clear: I've got to go.  Natural: I gotta go.",
+      "chinese": "我得走了。got to 常缩读为 gotta。",
+      "start": 206.568,
+      "end": 212.698
+    },
+    {
+      "speaker": "Emma",
+      "english": "Clear: I have to work.  Natural: I hafta work.",
+      "chinese": "我必须工作。have to 常听起来像 hafta。",
+      "start": 213.648,
+      "end": 220.382
+    },
+    {
+      "speaker": "Emma",
+      "english": "Clear: She has to leave.  Natural: She has ta leave.",
+      "chinese": "她必须离开。has to 在自然口语中会弱化。",
+      "start": 221.332,
+      "end": 228.774
+    },
+    {
+      "speaker": "Emma",
+      "english": "Clear: Let me see.  Natural: Lemme see.",
+      "chinese": "让我看看。let me 常缩读为 lemme。",
+      "start": 229.724,
+      "end": 234.543
+    },
+    {
+      "speaker": "Emma",
+      "english": "Clear: Give me a minute.  Natural: Gimme a minute.",
+      "chinese": "给我一分钟。give me 常缩读为 gimme。",
+      "start": 235.493,
+      "end": 240.787
+    },
+    {
+      "speaker": "Emma",
+      "english": "Clear: It's kind of strange.  Natural: It's kinda strange.",
+      "chinese": "这有点奇怪。kind of 常缩读为 kinda。",
+      "start": 241.737,
+      "end": 249.644
+    },
+    {
+      "speaker": "Emma",
+      "english": "Clear: We're out of time.  Natural: We're outta time.",
+      "chinese": "我们没时间了。out of 常缩读为 outta。",
+      "start": 250.594,
+      "end": 257.154
+    },
+    {
+      "speaker": "Emma",
+      "english": "Clear: I have a lot of work.  Natural: I have a lotta work.",
+      "chinese": "我有很多工作。a lot of 常连成 a lotta。",
+      "start": 258.104,
+      "end": 265.128
+    },
+    {
+      "speaker": "Emma",
+      "english": "Clear: You should have called.  Natural: You shoulda called.",
+      "chinese": "你本应该打电话。should have 常缩读为 shoulda。",
+      "start": 266.078,
+      "end": 273.428
+    },
+    {
+      "speaker": "Emma",
+      "english": "Clear: I could have helped.  Natural: I coulda helped.",
+      "chinese": "我本可以帮忙。could have 常缩读为 coulda。",
+      "start": 274.378,
+      "end": 281.379
+    },
+    {
+      "speaker": "Emma",
+      "english": "Clear: I would have stayed.  Natural: I woulda stayed.",
+      "chinese": "我本来会留下。would have 常缩读为 woulda。",
+      "start": 282.329,
+      "end": 289.284
+    },
+    {
+      "speaker": "Emma",
+      "english": "Part five. Full sentence practice.",
+      "chinese": "第五部分：整句听感训练。",
+      "start": 291.434,
+      "end": 296.124
+    },
+    {
+      "speaker": "Emma",
+      "english": "Clear: What do you want to do?  Natural: Whaddaya wanna do?",
+      "chinese": "你想做什么？",
+      "start": 297.074,
+      "end": 303.913
+    },
+    {
+      "speaker": "Emma",
+      "english": "Clear: Did you tell him about it?  Natural: Didja tell 'im about it?",
+      "chinese": "你把这件事告诉他了吗？",
+      "start": 304.863,
+      "end": 314.824
+    },
+    {
+      "speaker": "Emma",
+      "english": "Clear: I should have told you.  Natural: I shoulda told ya.",
+      "chinese": "我本应该告诉你。",
+      "start": 315.774,
+      "end": 323.321
+    },
+    {
+      "speaker": "Emma",
+      "english": "Clear: Do you want to go with me?  Natural: D'ya wanna go with me?",
+      "chinese": "你想和我一起去吗？",
+      "start": 324.271,
+      "end": 330.587
+    },
+    {
+      "speaker": "Emma",
+      "english": "Clear: What are you doing?  Natural: Whaddaya doing?",
+      "chinese": "你在做什么？",
+      "start": 331.537,
+      "end": 337.795
+    }
+  ],
+  "source_title": "英语听力中的连读、弱读与缩读",
+  "source_date": "2026-07-16",
+  "source_url": "13-connected-speech-practice/transcript.md",
+  "level": "CEFR A1-A2 pronunciation practice",
+  "english_word_count": 411,
+  "exercise_count": 40,
+  "duration_seconds": 338.745
+});

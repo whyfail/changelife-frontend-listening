@@ -1,12 +1,12 @@
 # ChangeLife Daily Listening
 
-一个面向英语初学者的日常英语听力应用。项目包含 12 期 CEFR A1-A2 单人美式英语旁白，每期约 2 分钟，并提供逐句同步的英汉字幕。
+一个面向英语初学者的美式英语听力应用。项目包含 12 期 CEFR A1-A2 日常旁白和 1 期连读、弱读与缩读专项训练，并提供逐句同步的英汉字幕。
 
 [在线体验](https://whyfail.github.io/changelife-frontend-listening/)
 
 ## 功能
 
-- 12 期生活、习惯和自我成长主题听力，每期约 2 分钟
+- 13 期听力内容，包括日常主题旁白和连读、弱读、缩读专项训练
 - 温和自然的美式女声，A1 节目约 90–93 词/分钟
 - 英文、中文及双语字幕模式
 - 音频进度与字幕逐句同步
@@ -44,6 +44,13 @@ python3 -m http.server 8080
 | 10 | [Believe in Yourself](10-believe-in-yourself/transcript.md) | 230 | 120.0s |
 | 11 | [A Cup of Water](11-a-cup-of-water/transcript.md) | 181 | 120.0s |
 | 12 | [A Quiet Evening Walk](12-a-quiet-evening-walk/transcript.md) | 185 | 120.0s |
+| 13 | [Connected Speech Practice](13-connected-speech-practice/transcript.md) | 40 exercises | 338.7s |
+
+## 连读与弱读训练
+
+第 13 期根据《英语听力中的连读、弱读与缩读》整理，覆盖 40 个高频例子，包括 `can`、`to`、`for` 等弱读，`did you`、`what are you` 等连读与同化，以及 `gonna`、`wanna`、`shoulda` 等常见口语缩读。
+
+每个练习先以较慢语速朗读一次完整形式，再以自然美式口语朗读两遍。字幕同时标出完整形式、自然口语形式、中文意思及对应的语音现象。原始学习文档保存在 [reference.md](13-connected-speech-practice/reference.md)。
 
 ## 项目结构
 
@@ -54,12 +61,12 @@ python3 -m http.server 8080
 |-- app.js              # 播放器与字幕交互
 |-- content-data.js     # 节目元数据和逐句时间轴
 |-- assets/             # 品牌图标
-`-- 01-.../10-.../      # 每期音频和英汉内容
+`-- 01-.../13-.../      # 每期音频和英汉内容
 ```
 
 ## 内容说明
 
-英语旁白和中文翻译为语言学习场景原创内容，语音使用 MiniMax Speech 2.8 HD 生成。内容经过人工校对，但不能替代专业语言课程。
+英语旁白和中文翻译为语言学习场景原创内容，语音使用 MiniMax Speech 2.8 HD 生成。连读与弱读的实际发音会随口音、语速和说话人而变化；内容经过人工校对，但不能替代专业语言课程。
 
 ## License
 
